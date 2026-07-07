@@ -1,0 +1,70 @@
+[
+  {
+    "id": "n_respostas",
+    "title": "Respostas",
+    "type": "count_rows",
+    "value": 127,
+    "display_value": "127",
+    "note": "N total"
+  },
+  {
+    "id": "formacao_sim",
+    "title": "Recebeu formação",
+    "type": "share_equals",
+    "variable": "a6_formacao_pesticidas",
+    "value": "Sim",
+    "n": 83,
+    "valid_n": 127,
+    "percent_valid": 65.35,
+    "display_value": "65.35%",
+    "note": "83/127 válidas"
+  },
+  {
+    "id": "usa_pesticidas_sim",
+    "title": "Usa ou já usou pesticidas",
+    "type": "share_equals",
+    "variable": "b11_usa_pesticidas",
+    "value": "Sim",
+    "n": 124,
+    "valid_n": 127,
+    "percent_valid": 97.64,
+    "display_value": "97.64%",
+    "note": "124/127 válidas"
+  },
+  {
+    "id": "usa_epi_sim",
+    "title": "Usa EPI",
+    "type": "share_equals",
+    "variable": "c31_usa_epi",
+    "value": "Sim",
+    "n": 55,
+    "valid_n": 126,
+    "percent_valid": 43.65,
+    "display_value": "43.65%",
+    "note": "55/126 válidas"
+  },
+  {
+    "id": "percebe_saude_sim",
+    "title": "Percebe impactos na saúde",
+    "type": "share_equals",
+    "variable": "d32_percepcao_impacto_saude",
+    "value": "Sim",
+    "n": 122,
+    "valid_n": 127,
+    "percent_valid": 96.06,
+    "display_value": "96.06%",
+    "note": "122/127 válidas"
+  },
+  {
+    "id": "percebe_ambiente_sim",
+    "title": "Percebe impactos ambientais",
+    "type": "share_equals",
+    "variable": "d33_percepcao_impacto_ambiente",
+    "value": "Sim",
+    "n": 34,
+    "valid_n": 127,
+    "percent_valid": 26.77,
+    "display_value": "26.77%",
+    "note": "34/127 válidas"
+  }
+]

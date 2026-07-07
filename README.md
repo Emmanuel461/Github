@@ -6,8 +6,8 @@ Repositório para preparar, calcular e visualizar os resultados do questionário
 
 - Python prepara os dados e calcula todos os resultados.
 - A aplicação web em `docs/` apenas lê JSON pré-calculados e renderiza tabelas/gráficos.
-- Os dados ficam somente em `data/`.
-- Não existe `docs/data/`.
+- Os dados de trabalho ficam em `data/`.
+- A cópia pública dos JSON usados pelo GitHub Pages fica em `docs/data/app/`.
 
 ## Estrutura
 
@@ -17,7 +17,8 @@ data/
   processed/        Base limpa, catálogos e CSV de auditoria.
   app/              JSON pré-calculados consumidos pela app.
 
-docs/               Aplicação estática.
+docs/               Aplicação estática publicada no GitHub Pages.
+docs/data/app/      Cópia pública dos JSON consumidos pela app.
 scripts/            Scripts Python do fluxo de trabalho.
 notebooks/          Espaço para exploração opcional.
 images/             Espaço para figuras exportadas, se forem necessárias depois.
@@ -54,6 +55,8 @@ data/processed/question_catalog_app.csv
 data/processed/value_audit.csv
 data/app/questions.json
 data/app/app_config.json
+docs/data/app/questions.json
+docs/data/app/app_config.json
 ```
 
 ### `scripts/02_generate_app_outputs.py`
@@ -66,14 +69,19 @@ data/app/descriptive_results.json
 data/app/multiple_choice_results.json
 data/app/crosstab_results.json
 data/app/app_manifest.json
+docs/data/app/dashboard_cards.json
+docs/data/app/descriptive_results.json
+docs/data/app/multiple_choice_results.json
+docs/data/app/crosstab_results.json
+docs/data/app/app_manifest.json
 ```
 
 Também gera CSV de auditoria em `data/processed/`.
 
 ## Publicação no GitHub Pages
 
-Como a app está em `docs/` e os dados estão em `data/app/`, publicar GitHub Pages a partir da raiz do repositório e abrir:
+Publicar GitHub Pages a partir da pasta `docs/` do branch principal e abrir:
 
 ```text
-https://usuario.github.io/repositorio/docs/
+https://usuario.github.io/repositorio/
 ```

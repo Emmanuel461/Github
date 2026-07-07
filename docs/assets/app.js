@@ -22,15 +22,15 @@ async function initApp() {
   cacheElements();
 
   try {
-    const config = await fetchJson("../data/app/app_config.json");
+    const config = await fetchJson("data/app/app_config.json");
     const files = config.data_files || {};
 
     const [questions, dashboardCards, descriptiveResults, multipleChoiceResults, crosstabResults] = await Promise.all([
-      fetchJson(files.questions || "../data/app/questions.json"),
-      fetchJson(files.dashboard_cards || "../data/app/dashboard_cards.json"),
-      fetchJson(files.descriptive_results || "../data/app/descriptive_results.json"),
-      fetchJson(files.multiple_choice_results || "../data/app/multiple_choice_results.json"),
-      fetchJson(files.crosstab_results || "../data/app/crosstab_results.json"),
+      fetchJson(files.questions || "data/app/questions.json"),
+      fetchJson(files.dashboard_cards || "data/app/dashboard_cards.json"),
+      fetchJson(files.descriptive_results || "data/app/descriptive_results.json"),
+      fetchJson(files.multiple_choice_results || "data/app/multiple_choice_results.json"),
+      fetchJson(files.crosstab_results || "data/app/crosstab_results.json"),
     ]);
 
     state.config = config;

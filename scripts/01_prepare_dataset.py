@@ -45,6 +45,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
 APP_DATA_DIR = ROOT / "data" / "app"
+PUBLIC_APP_DATA_DIR = ROOT / "docs" / "data" / "app"
 
 
 # ---------------------------------------------------------------------
@@ -670,11 +671,11 @@ def build_app_config(total_respondents: int) -> Dict[str, Any]:
         "subtitle": "Horticultoras de Granja de Pessubé",
         "language": "pt",
         "data_files": {
-            "questions": "../data/app/questions.json",
-            "dashboard_cards": "../data/app/dashboard_cards.json",
-            "descriptive_results": "../data/app/descriptive_results.json",
-            "multiple_choice_results": "../data/app/multiple_choice_results.json",
-            "crosstab_results": "../data/app/crosstab_results.json"
+            "questions": "data/app/questions.json",
+            "dashboard_cards": "data/app/dashboard_cards.json",
+            "descriptive_results": "data/app/descriptive_results.json",
+            "multiple_choice_results": "data/app/multiple_choice_results.json",
+            "crosstab_results": "data/app/crosstab_results.json"
         },
         "total_respondents": int(total_respondents),
         "sections": [
@@ -889,6 +890,7 @@ def write_outputs(
     """Write Excel, CSV and JSON outputs."""
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     APP_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    PUBLIC_APP_DATA_DIR.mkdir(parents=True, exist_ok=True)
     output_excel.parent.mkdir(parents=True, exist_ok=True)
 
     # Remove stale app inputs/results from previous experimental versions.
@@ -900,9 +902,10 @@ def write_outputs(
         "question_catalog_app.json",
         "question_catalog_full.json",
     ]:
-        stale_path = APP_DATA_DIR / stale_name
-        if stale_path.exists():
-            stale_path.unlink()
+        for app_dir in (APP_DATA_DIR, PUBLIC_APP_DATA_DIR):
+            stale_path = app_dir / stale_name
+            if stale_path.exists():
+                stale_path.unlink()
 
     readme = pd.DataFrame(
         {
@@ -952,9 +955,10 @@ def write_outputs(
         "app_config.json": build_app_config(total_respondents=len(clean_wide)),
     }
 
-    APP_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    for filename, payload in app_payloads.items():
-        write_json(APP_DATA_DIR / filename, payload)
+    for app_dir in (APP_DATA_DIR, PUBLIC_APP_DATA_DIR):
+        app_dir.mkdir(parents=True, exist_ok=True)
+        for filename, payload in app_payloads.items():
+            write_json(app_dir / filename, payload)
 
 
 def parse_args() -> argparse.Namespace:
@@ -1010,6 +1014,7 @@ def main() -> None:
     print(f"Output workbook: {args.output}")
     print(f"Processed data folder: {PROCESSED_DIR}")
     print(f"App data folder: {APP_DATA_DIR}")
+    print(f"Public app data folder: {PUBLIC_APP_DATA_DIR}")
 
 
 if __name__ == "__main__":

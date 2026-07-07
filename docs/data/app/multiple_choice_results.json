@@ -1,0 +1,742 @@
+[
+  {
+    "question_id": "B7",
+    "question_text": "B7. Que tipo de culturas hortícolas produz atualmente?",
+    "question_label": "Que tipo de culturas hortícolas produz atualmente?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 17,
+      "total_selected": 1389
+    },
+    "rows": [
+      {
+        "option": "Baguiche",
+        "selected_n": 119,
+        "valid_n": 127,
+        "percent_valid": 93.7,
+        "percent_total_respondents": 93.7
+      },
+      {
+        "option": "Alface",
+        "selected_n": 118,
+        "valid_n": 127,
+        "percent_valid": 92.91,
+        "percent_total_respondents": 92.91
+      },
+      {
+        "option": "Repolho",
+        "selected_n": 115,
+        "valid_n": 127,
+        "percent_valid": 90.55,
+        "percent_total_respondents": 90.55
+      },
+      {
+        "option": "Quiabo",
+        "selected_n": 114,
+        "valid_n": 127,
+        "percent_valid": 89.76,
+        "percent_total_respondents": 89.76
+      },
+      {
+        "option": "Beringela",
+        "selected_n": 105,
+        "valid_n": 127,
+        "percent_valid": 82.68,
+        "percent_total_respondents": 82.68
+      },
+      {
+        "option": "Beterraba",
+        "selected_n": 102,
+        "valid_n": 127,
+        "percent_valid": 80.31,
+        "percent_total_respondents": 80.31
+      },
+      {
+        "option": "Couve",
+        "selected_n": 102,
+        "valid_n": 127,
+        "percent_valid": 80.31,
+        "percent_total_respondents": 80.31
+      },
+      {
+        "option": "Malagueta",
+        "selected_n": 96,
+        "valid_n": 108,
+        "percent_valid": 88.89,
+        "percent_total_respondents": 75.59
+      },
+      {
+        "option": "Nabo",
+        "selected_n": 92,
+        "valid_n": 127,
+        "percent_valid": 72.44,
+        "percent_total_respondents": 72.44
+      },
+      {
+        "option": "Pimento",
+        "selected_n": 77,
+        "valid_n": 127,
+        "percent_valid": 60.63,
+        "percent_total_respondents": 60.63
+      },
+      {
+        "option": "Cebola",
+        "selected_n": 65,
+        "valid_n": 127,
+        "percent_valid": 51.18,
+        "percent_total_respondents": 51.18
+      },
+      {
+        "option": "Tomate",
+        "selected_n": 60,
+        "valid_n": 127,
+        "percent_valid": 47.24,
+        "percent_total_respondents": 47.24
+      },
+      {
+        "option": "Cenoura",
+        "selected_n": 58,
+        "valid_n": 127,
+        "percent_valid": 45.67,
+        "percent_total_respondents": 45.67
+      },
+      {
+        "option": "Outro",
+        "selected_n": 45,
+        "valid_n": 108,
+        "percent_valid": 41.67,
+        "percent_total_respondents": 35.43
+      },
+      {
+        "option": "Suculibembem",
+        "selected_n": 43,
+        "valid_n": 127,
+        "percent_valid": 33.86,
+        "percent_total_respondents": 33.86
+      },
+      {
+        "option": "Salsa",
+        "selected_n": 40,
+        "valid_n": 46,
+        "percent_valid": 86.96,
+        "percent_total_respondents": 31.5
+      },
+      {
+        "option": "Alho francês",
+        "selected_n": 38,
+        "valid_n": 127,
+        "percent_valid": 29.92,
+        "percent_total_respondents": 29.92
+      }
+    ]
+  },
+  {
+    "question_id": "B12",
+    "question_text": "B12. Quais os principais pesticidas que utiliza?",
+    "question_label": "Quais os principais pesticidas que utiliza?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 4,
+      "total_selected": 127
+    },
+    "rows": [
+      {
+        "option": "Inseticidas",
+        "selected_n": 125,
+        "valid_n": 127,
+        "percent_valid": 98.43,
+        "percent_total_respondents": 98.43
+      },
+      {
+        "option": "Outros",
+        "selected_n": 2,
+        "valid_n": 127,
+        "percent_valid": 1.57,
+        "percent_total_respondents": 1.57
+      },
+      {
+        "option": "Fungicidas",
+        "selected_n": 0,
+        "valid_n": 127,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      },
+      {
+        "option": "Herbicidas",
+        "selected_n": 0,
+        "valid_n": 127,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      }
+    ]
+  },
+  {
+    "question_id": "B19.1",
+    "question_text": "B19.1. Se resposta for “Sim” que tipo de produto natural?",
+    "question_label": "1. Se resposta for “Sim” que tipo de produto natural?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 5,
+      "total_selected": 360
+    },
+    "rows": [
+      {
+        "option": "Folhas e frutos de Cássia pilados com água",
+        "selected_n": 110,
+        "valid_n": 115,
+        "percent_valid": 95.65,
+        "percent_total_respondents": 86.61
+      },
+      {
+        "option": "Moringa",
+        "selected_n": 92,
+        "valid_n": 109,
+        "percent_valid": 84.4,
+        "percent_total_respondents": 72.44
+      },
+      {
+        "option": "Água com sabão e malagueta",
+        "selected_n": 91,
+        "valid_n": 115,
+        "percent_valid": 79.13,
+        "percent_total_respondents": 71.65
+      },
+      {
+        "option": "Água com sabão e tabaco",
+        "selected_n": 63,
+        "valid_n": 115,
+        "percent_valid": 54.78,
+        "percent_total_respondents": 49.61
+      },
+      {
+        "option": "Cinza",
+        "selected_n": 4,
+        "valid_n": 115,
+        "percent_valid": 3.48,
+        "percent_total_respondents": 3.15
+      }
+    ]
+  },
+  {
+    "question_id": "B21",
+    "question_text": "B21. Qual é a finalidade do dinheiro que você ganha na venda do seus produtos hortícolas ?",
+    "question_label": "Qual é a finalidade do dinheiro que você ganha na venda do seus produtos hortícolas ?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 6,
+      "total_selected": 106
+    },
+    "rows": [
+      {
+        "option": "Para alimentação da família",
+        "selected_n": 38,
+        "valid_n": 39,
+        "percent_valid": 97.44,
+        "percent_total_respondents": 29.92
+      },
+      {
+        "option": "Para o pagamento da educação dos filhos",
+        "selected_n": 38,
+        "valid_n": 39,
+        "percent_valid": 97.44,
+        "percent_total_respondents": 29.92
+      },
+      {
+        "option": "Para as cerimónias",
+        "selected_n": 17,
+        "valid_n": 39,
+        "percent_valid": 43.59,
+        "percent_total_respondents": 13.39
+      },
+      {
+        "option": "outro",
+        "selected_n": 12,
+        "valid_n": 39,
+        "percent_valid": 30.77,
+        "percent_total_respondents": 9.45
+      },
+      {
+        "option": "Para o pagamento da renda",
+        "selected_n": 1,
+        "valid_n": 39,
+        "percent_valid": 2.56,
+        "percent_total_respondents": 0.79
+      },
+      {
+        "option": "Para a minha própria formação",
+        "selected_n": 0,
+        "valid_n": 39,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      }
+    ]
+  },
+  {
+    "question_id": "C23",
+    "question_text": "C23. Quem aplica pesticidas na sua horta?",
+    "question_label": "Quem aplica pesticidas na sua horta?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 5,
+      "total_selected": 158
+    },
+    "rows": [
+      {
+        "option": "Eu mesmo",
+        "selected_n": 96,
+        "valid_n": 127,
+        "percent_valid": 75.59,
+        "percent_total_respondents": 75.59
+      },
+      {
+        "option": "Outro",
+        "selected_n": 44,
+        "valid_n": 108,
+        "percent_valid": 40.74,
+        "percent_total_respondents": 34.65
+      },
+      {
+        "option": "Meus colegas",
+        "selected_n": 8,
+        "valid_n": 127,
+        "percent_valid": 6.3,
+        "percent_total_respondents": 6.3
+      },
+      {
+        "option": "Algum familiar",
+        "selected_n": 5,
+        "valid_n": 127,
+        "percent_valid": 3.94,
+        "percent_total_respondents": 3.94
+      },
+      {
+        "option": "Técnicos de agricultura",
+        "selected_n": 5,
+        "valid_n": 127,
+        "percent_valid": 3.94,
+        "percent_total_respondents": 3.94
+      }
+    ]
+  },
+  {
+    "question_id": "C25",
+    "question_text": "C25. Onde costuma armazenar os pesticidas?",
+    "question_label": "Onde costuma armazenar os pesticidas?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 4,
+      "total_selected": 126
+    },
+    "rows": [
+      {
+        "option": "No campo, ao ar livre",
+        "selected_n": 125,
+        "valid_n": 126,
+        "percent_valid": 99.21,
+        "percent_total_respondents": 98.43
+      },
+      {
+        "option": "Outro",
+        "selected_n": 1,
+        "valid_n": 126,
+        "percent_valid": 0.79,
+        "percent_total_respondents": 0.79
+      },
+      {
+        "option": "Armazém de produtos químicos",
+        "selected_n": 0,
+        "valid_n": 126,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      },
+      {
+        "option": "Área de habitação",
+        "selected_n": 0,
+        "valid_n": 126,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      }
+    ]
+  },
+  {
+    "question_id": "C28",
+    "question_text": "C28. O que faz com os pesticidas que sobram após a mistura ou aplicação?",
+    "question_label": "O que faz com os pesticidas que sobram após a mistura ou aplicação?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 6,
+      "total_selected": 149
+    },
+    "rows": [
+      {
+        "option": "Mistura apenas a quantidade necessária",
+        "selected_n": 104,
+        "valid_n": 126,
+        "percent_valid": 82.54,
+        "percent_total_respondents": 81.89
+      },
+      {
+        "option": "Ofereço colegas",
+        "selected_n": 19,
+        "valid_n": 120,
+        "percent_valid": 15.83,
+        "percent_total_respondents": 14.96
+      },
+      {
+        "option": "Descarta no campo",
+        "selected_n": 10,
+        "valid_n": 126,
+        "percent_valid": 7.94,
+        "percent_total_respondents": 7.87
+      },
+      {
+        "option": "Aplica noutras culturas",
+        "selected_n": 8,
+        "valid_n": 126,
+        "percent_valid": 6.35,
+        "percent_total_respondents": 6.3
+      },
+      {
+        "option": "Guardo para utilizar depois",
+        "selected_n": 8,
+        "valid_n": 107,
+        "percent_valid": 7.48,
+        "percent_total_respondents": 6.3
+      },
+      {
+        "option": "Descarta no esgoto ou na valeta",
+        "selected_n": 0,
+        "valid_n": 126,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      }
+    ]
+  },
+  {
+    "question_id": "C30",
+    "question_text": "C30. O que faz com as embalagens vazias de pesticidas?",
+    "question_label": "O que faz com as embalagens vazias de pesticidas?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 6,
+      "total_selected": 160
+    },
+    "rows": [
+      {
+        "option": "Deita no campo",
+        "selected_n": 112,
+        "valid_n": 126,
+        "percent_valid": 88.89,
+        "percent_total_respondents": 88.19
+      },
+      {
+        "option": "Guardo para próxima compra",
+        "selected_n": 30,
+        "valid_n": 107,
+        "percent_valid": 28.04,
+        "percent_total_respondents": 23.62
+      },
+      {
+        "option": "Queima",
+        "selected_n": 9,
+        "valid_n": 126,
+        "percent_valid": 7.14,
+        "percent_total_respondents": 7.09
+      },
+      {
+        "option": "Enterra",
+        "selected_n": 5,
+        "valid_n": 126,
+        "percent_valid": 3.97,
+        "percent_total_respondents": 3.94
+      },
+      {
+        "option": "Coloca no lixo comum",
+        "selected_n": 4,
+        "valid_n": 126,
+        "percent_valid": 3.17,
+        "percent_total_respondents": 3.15
+      },
+      {
+        "option": "Deita em canais de irrigação",
+        "selected_n": 0,
+        "valid_n": 126,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      }
+    ]
+  },
+  {
+    "question_id": "D32.2",
+    "question_text": "D32.2. Se Sim, quais sintomas sentiu?",
+    "question_label": "2. Se Sim, quais sintomas sentiu?",
+    "app_section": "Saúde e ambiente",
+    "objective": "Compreender impactos percebidos na saúde e no ambiente",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 6,
+      "total_selected": 183
+    },
+    "rows": [
+      {
+        "option": "Dificuldade respiratória",
+        "selected_n": 72,
+        "valid_n": 102,
+        "percent_valid": 70.59,
+        "percent_total_respondents": 56.69
+      },
+      {
+        "option": "Tonturas",
+        "selected_n": 40,
+        "valid_n": 102,
+        "percent_valid": 39.22,
+        "percent_total_respondents": 31.5
+      },
+      {
+        "option": "Irritação na pele ou nos olhos",
+        "selected_n": 28,
+        "valid_n": 102,
+        "percent_valid": 27.45,
+        "percent_total_respondents": 22.05
+      },
+      {
+        "option": "Dores de cabeça",
+        "selected_n": 21,
+        "valid_n": 102,
+        "percent_valid": 20.59,
+        "percent_total_respondents": 16.54
+      },
+      {
+        "option": "Náuseas/vómitos",
+        "selected_n": 20,
+        "valid_n": 102,
+        "percent_valid": 19.61,
+        "percent_total_respondents": 15.75
+      },
+      {
+        "option": "Outro",
+        "selected_n": 2,
+        "valid_n": 102,
+        "percent_valid": 1.96,
+        "percent_total_respondents": 1.57
+      }
+    ]
+  },
+  {
+    "question_id": "D33.1",
+    "question_text": "D33.1. Na sua opinião, que impactos os pesticidas podem causar no ambiente?",
+    "question_label": "1. Na sua opinião, que impactos os pesticidas podem causar no ambiente?",
+    "app_section": "Saúde e ambiente",
+    "objective": "Compreender impactos percebidos na saúde e no ambiente",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 5,
+      "total_selected": 73
+    },
+    "rows": [
+      {
+        "option": "Contaminação do solo",
+        "selected_n": 33,
+        "valid_n": 34,
+        "percent_valid": 97.06,
+        "percent_total_respondents": 25.98
+      },
+      {
+        "option": "Contaminação da água",
+        "selected_n": 31,
+        "valid_n": 34,
+        "percent_valid": 91.18,
+        "percent_total_respondents": 24.41
+      },
+      {
+        "option": "Morte dos insetos úteis",
+        "selected_n": 8,
+        "valid_n": 34,
+        "percent_valid": 23.53,
+        "percent_total_respondents": 6.3
+      },
+      {
+        "option": "Outro",
+        "selected_n": 1,
+        "valid_n": 34,
+        "percent_valid": 2.94,
+        "percent_total_respondents": 0.79
+      },
+      {
+        "option": "Prejuízos para animais",
+        "selected_n": 0,
+        "valid_n": 34,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      }
+    ]
+  },
+  {
+    "question_id": "D33.2",
+    "question_text": "D33.2. Caso afirmativo porque usava pesticida",
+    "question_label": "2. Caso afirmativo porque usava pesticida",
+    "app_section": "Saúde e ambiente",
+    "objective": "Compreender impactos percebidos na saúde e no ambiente",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 3,
+      "total_selected": 48
+    },
+    "rows": [
+      {
+        "option": "Falta de conhecimento",
+        "selected_n": 30,
+        "valid_n": 34,
+        "percent_valid": 88.24,
+        "percent_total_respondents": 23.62
+      },
+      {
+        "option": "Falta de alternativas",
+        "selected_n": 17,
+        "valid_n": 34,
+        "percent_valid": 50.0,
+        "percent_total_respondents": 13.39
+      },
+      {
+        "option": "Falta de apoios tecnicos e financeiro",
+        "selected_n": 1,
+        "valid_n": 34,
+        "percent_valid": 2.94,
+        "percent_total_respondents": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "E34.1",
+    "question_text": "E34.1. Se Sim, que temas gostaria que fossem abordadas numa formação?",
+    "question_label": "1. Se Sim, que temas gostaria que fossem abordadas numa formação?",
+    "app_section": "Educação ambiental",
+    "objective": "Propor estratégias de educação ambiental",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 4,
+      "total_selected": 204
+    },
+    "rows": [
+      {
+        "option": "Proteção da saúde",
+        "selected_n": 109,
+        "valid_n": 122,
+        "percent_valid": 89.34,
+        "percent_total_respondents": 85.83
+      },
+      {
+        "option": "Uso correto dos pesticidas",
+        "selected_n": 49,
+        "valid_n": 122,
+        "percent_valid": 40.16,
+        "percent_total_respondents": 38.58
+      },
+      {
+        "option": "Alternativas aos pesticidas químicos",
+        "selected_n": 34,
+        "valid_n": 122,
+        "percent_valid": 27.87,
+        "percent_total_respondents": 26.77
+      },
+      {
+        "option": "Proteção do ambiente",
+        "selected_n": 12,
+        "valid_n": 122,
+        "percent_valid": 9.84,
+        "percent_total_respondents": 9.45
+      }
+    ]
+  },
+  {
+    "question_id": "E35",
+    "question_text": "E35. Que formas de sensibilização considera mais adequadas?",
+    "question_label": "Que formas de sensibilização considera mais adequadas?",
+    "app_section": "Educação ambiental",
+    "objective": "Propor estratégias de educação ambiental",
+    "variable_type": "multiple_choice",
+    "default_chart": "horizontal_bar",
+    "summary": {
+      "total_respondents": 127,
+      "n_options": 5,
+      "total_selected": 189
+    },
+    "rows": [
+      {
+        "option": "Formação prática no campo",
+        "selected_n": 116,
+        "valid_n": 124,
+        "percent_valid": 93.55,
+        "percent_total_respondents": 91.34
+      },
+      {
+        "option": "Seminário em sala",
+        "selected_n": 69,
+        "valid_n": 124,
+        "percent_valid": 55.65,
+        "percent_total_respondents": 54.33
+      },
+      {
+        "option": "Campanhas de rádio ou TV",
+        "selected_n": 3,
+        "valid_n": 124,
+        "percent_valid": 2.42,
+        "percent_total_respondents": 2.36
+      },
+      {
+        "option": "Apoio regular de técnicos agrícolas",
+        "selected_n": 1,
+        "valid_n": 124,
+        "percent_valid": 0.81,
+        "percent_total_respondents": 0.79
+      },
+      {
+        "option": "Integração no ensino na escola primária e liceus",
+        "selected_n": 0,
+        "valid_n": 124,
+        "percent_valid": 0.0,
+        "percent_total_respondents": 0.0
+      }
+    ]
+  }
+]

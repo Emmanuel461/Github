@@ -29,6 +29,7 @@ from scipy.stats import chi2_contingency, fisher_exact
 ROOT = Path(__file__).resolve().parents[1]
 PROCESSED_DIR = ROOT / "data" / "processed"
 APP_DATA_DIR = ROOT / "data" / "app"
+PUBLIC_APP_DATA_DIR = ROOT / "docs" / "data" / "app"
 
 MISSING_LABEL = "Sem resposta"
 ALPHA = 0.05
@@ -38,6 +39,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate precomputed JSON outputs for the static app.")
     parser.add_argument("--processed-dir", type=Path, default=PROCESSED_DIR)
     parser.add_argument("--app-dir", type=Path, default=APP_DATA_DIR)
+    parser.add_argument("--public-app-dir", type=Path, default=PUBLIC_APP_DATA_DIR)
     parser.add_argument("--alpha", type=float, default=ALPHA)
     return parser.parse_args()
 
@@ -383,7 +385,9 @@ def main() -> None:
     args = parse_args()
     processed_dir = args.processed_dir
     app_dir = args.app_dir
+    public_app_dir = args.public_app_dir
     app_dir.mkdir(parents=True, exist_ok=True)
+    public_app_dir.mkdir(parents=True, exist_ok=True)
 
     # Remove stale files that would suggest browser-side calculations or duplicate catalogs.
     for stale_name in [
@@ -393,9 +397,10 @@ def main() -> None:
         "question_catalog_app.json",
         "question_catalog_full.json",
     ]:
-        stale_path = app_dir / stale_name
-        if stale_path.exists():
-            stale_path.unlink()
+        for output_dir in (app_dir, public_app_dir):
+            stale_path = output_dir / stale_name
+            if stale_path.exists():
+                stale_path.unlink()
 
     clean = pd.read_csv(processed_dir / "questionario_clean_wide.csv")
     multiple = pd.read_csv(processed_dir / "multiple_choice_long.csv")
@@ -446,12 +451,17 @@ def main() -> None:
         ],
     }
 
-    write_json(app_dir / "questions.json", question_records)
-    write_json(app_dir / "dashboard_cards.json", dashboard_cards)
-    write_json(app_dir / "descriptive_results.json", descriptive_results)
-    write_json(app_dir / "multiple_choice_results.json", multiple_results)
-    write_json(app_dir / "crosstab_results.json", crosstab_results)
-    write_json(app_dir / "app_manifest.json", manifest)
+    app_payloads = {
+        "questions.json": question_records,
+        "dashboard_cards.json": dashboard_cards,
+        "descriptive_results.json": descriptive_results,
+        "multiple_choice_results.json": multiple_results,
+        "crosstab_results.json": crosstab_results,
+        "app_manifest.json": manifest,
+    }
+    for output_dir in (app_dir, public_app_dir):
+        for filename, payload in app_payloads.items():
+            write_json(output_dir / filename, payload)
 
     # CSV copies for auditing outside the app.
     flat_single = []
@@ -472,6 +482,7 @@ def main() -> None:
     pd.DataFrame(flat_ct).to_csv(processed_dir / "crosstab_summary.csv", index=False, encoding="utf-8-sig")
 
     print("App outputs generated in:", app_dir)
+    print("Public app outputs generated in:", public_app_dir)
     print("Descriptive questions:", len(descriptive_results))
     print("Multiple-choice questions:", len(multiple_results))
     print("Crosstabs:", len(crosstab_results))
