@@ -1,25 +1,79 @@
-# Análise do questionário sobre pesticidas em Granja de Pessubé
+# AnÃ¡lise do questionÃ¡rio sobre pesticidas em Granja de PessubÃ©
 
-Este repositório organiza os dados, scripts, gráficos e aplicação web relacionados com a análise do questionário aplicado às horticultoras de Granja de Pessubé sobre práticas de uso de pesticidas, conhecimentos de segurança e perceções sobre impactos na saúde humana e no ambiente.
+RepositÃ³rio para preparar, calcular e visualizar os resultados do questionÃ¡rio aplicado Ã s horticultoras de Granja de PessubÃ© sobre prÃ¡ticas de uso de pesticidas, conhecimento de seguranÃ§a e perceÃ§Ãµes sobre impactos na saÃºde humana e no ambiente.
 
-## Objetivos da análise
+## Regra de arquitetura
 
-- Identificar práticas hortícolas associadas ao uso de pesticidas.
-- Averiguar conhecimentos sobre medidas de segurança no manuseio, aplicação, armazenamento e descarte de pesticidas.
-- Compreender os impactos percebidos pelas horticultoras na saúde e no ambiente.
-- Analisar associações entre escolaridade, idade, experiência, formação e perceções.
-- Apoiar a proposta de estratégias de educação ambiental.
+- Python prepara os dados e calcula todos os resultados.
+- A aplicaÃ§Ã£o web em `docs/` apenas lÃª JSON prÃ©-calculados e renderiza tabelas/grÃ¡ficos.
+- Os dados ficam somente em `data/`.
+- NÃ£o existe `docs/data/`.
 
-## Estrutura do repositório
+## Estrutura
 
 ```text
 data/
-  raw/              Dados originais não modificados. Não recomendado subir dados sensíveis.
-  processed/        Dados limpos, anonimizados e tabelas de análise.
-  app/              Dados exportados para uso na aplicação web.
+  raw/              Excel original local.
+  processed/        Base limpa, catÃ¡logos e CSV de auditoria.
+  app/              JSON prÃ©-calculados consumidos pela app.
 
-scripts/            Scripts Python para limpeza, análise e exportação.
-notebooks/          Notebooks de exploração e validação.
-images/             Gráficos exportados para relatório, tese ou apresentação.
-docs/               Aplicação web publicada via GitHub Pages.
+docs/               AplicaÃ§Ã£o estÃ¡tica.
+scripts/            Scripts Python do fluxo de trabalho.
+notebooks/          EspaÃ§o para exploraÃ§Ã£o opcional.
+images/             EspaÃ§o para figuras exportadas, se forem necessÃ¡rias depois.
+```
+
+## Fluxo de trabalho
+
+```bash
+pip install -r requirements.txt
+python scripts/01_prepare_dataset.py --input data/raw/questionario_original.xlsx
+python scripts/02_generate_app_outputs.py
+python -m http.server 8000
+```
+
+Abrir no navegador:
+
+```text
+http://localhost:8000/docs/
+```
+
+## Scripts
+
+### `scripts/01_prepare_dataset.py`
+
+Limpa e organiza o Excel original. Gera:
+
+```text
+data/processed/questionario_clean.xlsx
+data/processed/questionario_clean_wide.csv
+data/processed/single_choice_wide.csv
+data/processed/multiple_choice_long.csv
+data/processed/question_catalog.csv
+data/processed/question_catalog_app.csv
+data/processed/value_audit.csv
+data/app/questions.json
+data/app/app_config.json
+```
+
+### `scripts/02_generate_app_outputs.py`
+
+Calcula todos os resultados usados pela aplicaÃ§Ã£o web. Gera:
+
+```text
+data/app/dashboard_cards.json
+data/app/descriptive_results.json
+data/app/multiple_choice_results.json
+data/app/crosstab_results.json
+data/app/app_manifest.json
+```
+
+TambÃ©m gera CSV de auditoria em `data/processed/`.
+
+## PublicaÃ§Ã£o no GitHub Pages
+
+Como a app estÃ¡ em `docs/` e os dados estÃ£o em `data/app/`, publicar GitHub Pages a partir da raiz do repositÃ³rio e abrir:
+
+```text
+https://usuario.github.io/repositorio/docs/
 ```

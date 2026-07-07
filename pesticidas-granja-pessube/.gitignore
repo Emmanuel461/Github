@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Datos sensibles originales: mantener local salvo decisión explícita de subirlos.
+data/raw/*
+!data/raw/.gitkeep

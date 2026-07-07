@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Análise do questionário sobre pesticidas</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Dissertação em Educação Ambiental</p>
+      <h1 id="app-title">Análise do questionário sobre pesticidas</h1>
+      <p id="app-subtitle" class="subtitle">Horticultoras de Granja de Pessubé</p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="status-card" id="loading-panel">
+      <h2>Carregando dados</h2>
+      <p>A aplicação está lendo os resultados pré-calculados em JSON e preparando a interface.</p>
+    </section>
+
+    <section class="dashboard hidden" id="dashboard-cards"></section>
+
+    <section class="panel hidden" id="navigation-panel">
+      <h2>Objetivos e módulos de análise</h2>
+      <div class="tabs" id="section-tabs"></div>
+    </section>
+
+    <section class="panel hidden" id="analysis-panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" id="current-section-label">Módulo</p>
+          <h2 id="current-section-title">Selecione um módulo</h2>
+          <p id="current-section-objective" class="muted"></p>
+        </div>
+      </div>
+
+      <div id="question-area" class="analysis-grid">
+        <aside class="selector-card">
+          <label for="question-select">Pergunta</label>
+          <select id="question-select"></select>
+          <p class="hint">A tabela e o gráfico são lidos de resultados pré-calculados pelos scripts Python.</p>
+        </aside>
+
+        <article class="result-card">
+          <div class="result-card__header">
+            <div>
+              <p class="eyebrow" id="question-id-label"></p>
+              <h3 id="question-title">Selecione uma pergunta</h3>
+              <p id="question-meta" class="muted"></p>
+            </div>
+            <button class="button" id="download-frequency-btn" type="button">Baixar CSV</button>
+          </div>
+
+          <div class="summary-line" id="question-summary"></div>
+          <div class="chart-box">
+            <canvas id="main-chart"></canvas>
+          </div>
+          <div class="table-wrap" id="frequency-table"></div>
+        </article>
+      </div>
+
+      <div id="crosstab-area" class="analysis-grid hidden">
+        <aside class="selector-card">
+          <label for="crosstab-select">Cruzamento</label>
+          <select id="crosstab-select"></select>
+          <p class="hint">As tabelas cruzadas, percentagens por linha, Qui-quadrado e Cramér’s V são pré-calculados pelos scripts Python.</p>
+        </aside>
+
+        <article class="result-card">
+          <div class="result-card__header">
+            <div>
+              <p class="eyebrow">Associação estatística</p>
+              <h3 id="crosstab-title">Selecione um cruzamento</h3>
+              <p id="crosstab-meta" class="muted"></p>
+            </div>
+            <button class="button" id="download-crosstab-btn" type="button">Baixar CSV</button>
+          </div>
+
+          <div class="stats-grid" id="crosstab-stats"></div>
+          <div class="notice hidden" id="crosstab-warning"></div>
+          <div class="chart-box">
+            <canvas id="crosstab-chart"></canvas>
+          </div>
+          <h4>Frequências absolutas</h4>
+          <div class="table-wrap" id="crosstab-counts-table"></div>
+          <h4>Percentagens por linha</h4>
+          <div class="table-wrap" id="crosstab-rowpct-table"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel hidden" id="method-panel">
+      <h2>Notas metodológicas</h2>
+      <ul id="method-notes"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Aplicação estática para visualizar resultados pré-calculados pelos scripts Python.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

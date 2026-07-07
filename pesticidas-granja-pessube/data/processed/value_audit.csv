@@ -1,0 +1,243 @@
+﻿variable,value,n,percent_total,n_unique_variable
+a1_bairro,Outro,44,34.65,10
+a1_bairro,Missira,21,16.54,10
+a1_bairro,Sintra,15,11.81,10
+a1_bairro,Cuntum Madina,14,11.02,10
+a1_bairro,B. Ajuda,11,8.66,10
+a1_bairro,Quelele,8,6.3,10
+a1_bairro,B. Militar,5,3.94,10
+a1_bairro,Luanda,4,3.15,10
+a1_bairro,Pessak,4,3.15,10
+a1_bairro,Reno,1,0.79,10
+a2_associacao,Ajuda Mutua,45,35.43,5
+a2_associacao,Outro,40,31.5,5
+a2_associacao,Manel água,25,19.69,5
+a2_associacao,Madina de Volta,14,11.02,5
+a2_associacao,Edena (La ki nota kumenel),3,2.36,5
+a3_escolaridade,4.ª classe (ensino básico),74,58.27,4
+a3_escolaridade,Nunca frequentou a escola,31,24.41,4
+a3_escolaridade,Ensino básico completo,19,14.96,4
+a3_escolaridade,Ensino superior,3,2.36,4
+a4_idade,Entre 41 ou mais anos,100,78.74,5
+a4_idade,Entre 36 a 40 anos,10,7.87,5
+a4_idade,Entre 31 a 35 anos,8,6.3,5
+a4_idade,Entre 26 a 30 anos,8,6.3,5
+a4_idade,Entre 21 a 25 anos,1,0.79,5
+a6_formacao_pesticidas,Sim,83,65.35,2
+a6_formacao_pesticidas,Não,44,34.65,2
+a6a_quem_ministrou_formacao,<NA>,44,34.65,16
+a6a_quem_ministrou_formacao,IANDA GUINÉ,41,32.28,16
+a6a_quem_ministrou_formacao,Projeto,13,10.24,16
+a6a_quem_ministrou_formacao,Subsaid,6,4.72,16
+a6a_quem_ministrou_formacao,PNUD,5,3.94,16
+a6a_quem_ministrou_formacao,Projetos,4,3.15,16
+a6a_quem_ministrou_formacao,"PNUD, Micap",2,1.57,16
+a6a_quem_ministrou_formacao,Micat,2,1.57,16
+a6a_quem_ministrou_formacao,"Micat, Subsaid",2,1.57,16
+a6a_quem_ministrou_formacao,Pessoal de Proteção Vegetal,1,0.79,16
+a6a_quem_ministrou_formacao,Proteção Vegetal,1,0.79,16
+a6a_quem_ministrou_formacao,"Subsaid,Amae e Micat",1,0.79,16
+a6a_quem_ministrou_formacao,"Subsaid,FAO IMPA",1,0.79,16
+a6a_quem_ministrou_formacao,"FAO,IMPA",1,0.79,16
+a6a_quem_ministrou_formacao,"Subsaid, Micat",1,0.79,16
+a6a_quem_ministrou_formacao,Mikat,1,0.79,16
+a6a_quem_ministrou_formacao,"Subsaid, IANDA GUINÉ",1,0.79,16
+b8_organizacao_canteiro,Várias,125,98.43,2
+b8_organizacao_canteiro,Uma cultura,2,1.57,2
+b9_rotacao_culturas,Não,113,88.98,2
+b9_rotacao_culturas,Sim,14,11.02,2
+b10_conhece_pesticidas,Sim,127,100.0,1
+b11_usa_pesticidas,Sim,124,97.64,2
+b11_usa_pesticidas,Não,3,2.36,2
+b12_tipos_pesticidas,Inseticidas,125,98.43,2
+b12_tipos_pesticidas,Outro,2,1.57,2
+b13_local_compra_pesticidas,No mercado,120,94.49,2
+b13_local_compra_pesticidas,Outro,7,5.51,2
+b14_momento_uso_pesticidas,Quando começa a ver algumas pragas,73,57.48,3
+b14_momento_uso_pesticidas,Antes das pragas começarem a atacar,52,40.94,3
+b14_momento_uso_pesticidas,Quando a planta tem muitas pragas,1,0.79,3
+b14_momento_uso_pesticidas,<NA>,1,0.79,3
+b15_duracao_aplicacao,Enquanto à pragas,125,98.43,2
+b15_duracao_aplicacao,Apenas uma vez,1,0.79,2
+b15_duracao_aplicacao,<NA>,1,0.79,2
+b16_frequencia_aplicacao,Semanalmente,90,70.87,3
+b16_frequencia_aplicacao,Quinzenalmente,25,19.69,3
+b16_frequencia_aplicacao,Mensalmente,11,8.66,3
+b16_frequencia_aplicacao,<NA>,1,0.79,3
+b17_criterios_escolha_pesticidas,Recomendação de colegas,75,59.06,4
+b17_criterios_escolha_pesticidas,Recomendação de vendedores,49,38.58,4
+b17_criterios_escolha_pesticidas,Recomendação de técnicos agrícolas (ONGs ou Estado),1,0.79,4
+b17_criterios_escolha_pesticidas,Outro,1,0.79,4
+b17_criterios_escolha_pesticidas,<NA>,1,0.79,4
+b18_usa_pesticidas_outras_culturas,Não,121,95.28,2
+b18_usa_pesticidas_outras_culturas,Sim,5,3.94,2
+b18_usa_pesticidas_outras_culturas,<NA>,1,0.79,2
+b19_usa_produtos_naturais,Sim,115,90.55,2
+b19_usa_produtos_naturais,Não,12,9.45,2
+b19_2_quem_ensinou_produtos_naturais,IANDA GUINÉ,39,30.71,17
+b19_2_quem_ensinou_produtos_naturais,Colegas,32,25.2,17
+b19_2_quem_ensinou_produtos_naturais,Projeto,15,11.81,17
+b19_2_quem_ensinou_produtos_naturais,<NA>,12,9.45,17
+b19_2_quem_ensinou_produtos_naturais,PNUD,6,4.72,17
+b19_2_quem_ensinou_produtos_naturais,Subsaid,6,4.72,17
+b19_2_quem_ensinou_produtos_naturais,Micat,5,3.94,17
+b19_2_quem_ensinou_produtos_naturais,Projetos,2,1.57,17
+b19_2_quem_ensinou_produtos_naturais,Projeto Nicap,1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,"Micat, Subsaid, Pnud",1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,"Subsaid, Pnud,Micat",1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,Pessoal de Proteção Vegetal,1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,Através de colegas,1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,"Subsaid, Amae e Micat",1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,"Subsaid, IMPA e Micat",1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,"FAO, IMPA",1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,Mikat,1,0.79,17
+b19_2_quem_ensinou_produtos_naturais,"Subsaid, IANDA GUINÉ",1,0.79,17
+b19_3_eficacia_produtos_naturais,Sim,94,74.02,2
+b19_3_eficacia_produtos_naturais,Não,21,16.54,2
+b19_3_eficacia_produtos_naturais,<NA>,12,9.45,2
+b20_agricultura_sem_pesticidas_quimicos,Sim,72,56.69,2
+b20_agricultura_sem_pesticidas_quimicos,Não,55,43.31,2
+b21_finalidade_dinheiro,<NA>,88,69.29,11
+b21_finalidade_dinheiro,Para alimentação da família Para o pagamento da educação dos filhos,12,9.45,11
+b21_finalidade_dinheiro,Para alimentação da família Para o pagamento da educação dos filhos Para as cerimónias,12,9.45,11
+b21_finalidade_dinheiro,Para alimentação da família Para o pagamento da educação dos filhos outro,6,4.72,11
+b21_finalidade_dinheiro,Para alimentação da família Para o pagamento da educação dos filhos Para as cerimónias outro,2,1.57,11
+b21_finalidade_dinheiro,Para o pagamento da educação dos filhos Para alimentação da família Para as cerimónias,1,0.79,11
+b21_finalidade_dinheiro,Para alimentação da família outro,1,0.79,11
+b21_finalidade_dinheiro,Para o pagamento da educação dos filhos Para alimentação da família outro,1,0.79,11
+b21_finalidade_dinheiro,Para o pagamento da educação dos filhos,1,0.79,11
+b21_finalidade_dinheiro,Para o pagamento da educação dos filhos Para alimentação da família outro Para as cerimónias Para o pagamento da renda,1,0.79,11
+b21_finalidade_dinheiro,Para alimentação da família Para o pagamento da educação dos filhos outro Para as cerimónias,1,0.79,11
+b21_finalidade_dinheiro,Para o pagamento da educação dos filhos Para alimentação da família,1,0.79,11
+c21_conhece_regras_seguranca,Não,116,91.34,2
+c21_conhece_regras_seguranca,Sim,11,8.66,2
+c21a_fonte_regras_seguranca,<NA>,116,91.34,4
+c21a_fonte_regras_seguranca,Colegas,8,6.3,4
+c21a_fonte_regras_seguranca,Experiência,1,0.79,4
+c21a_fonte_regras_seguranca,Experiência própria,1,0.79,4
+c21a_fonte_regras_seguranca,Micat,1,0.79,4
+c22_conhece_pesticidas_proibidos_restritos,Não,106,83.46,2
+c22_conhece_pesticidas_proibidos_restritos,Sim,21,16.54,2
+c22_1_sabe_quais_pesticidas_proibidos,<NA>,111,87.4,2
+c22_1_sabe_quais_pesticidas_proibidos,Não,10,7.87,2
+c22_1_sabe_quais_pesticidas_proibidos,Sim,6,4.72,2
+c22_2_razao_pesticidas_proibidos_restritos,<NA>,111,87.4,1
+c22_2_razao_pesticidas_proibidos_restritos,São muito tóxicos,16,12.6,1
+c23_aplicador_pesticidas,Eu mesmo,66,51.97,9
+c23_aplicador_pesticidas,Eu mesmo Outro,21,16.54,9
+c23_aplicador_pesticidas,Outro,15,11.81,9
+c23_aplicador_pesticidas,Outro Eu mesmo,7,5.51,9
+c23_aplicador_pesticidas,Meus colegas,6,4.72,9
+c23_aplicador_pesticidas,Algum familiar,5,3.94,9
+c23_aplicador_pesticidas,Técnicos de agricultura,4,3.15,9
+c23_aplicador_pesticidas,Eu mesmo Meus colegas,2,1.57,9
+c23_aplicador_pesticidas,Técnicos de agricultura Outro,1,0.79,9
+c24_le_rotulos,Não,124,97.64,2
+c24_le_rotulos,Sim,2,1.57,2
+c24_le_rotulos,<NA>,1,0.79,2
+c24_1_porque_nao_le_rotulos,Outro,81,63.78,2
+c24_1_porque_nao_le_rotulos,Não entendo porque não está em português,43,33.86,2
+c24_1_porque_nao_le_rotulos,<NA>,3,2.36,2
+c25_armazenamento_pesticidas,"No campo, ao ar livre",125,98.43,2
+c25_armazenamento_pesticidas,Outro,1,0.79,2
+c25_armazenamento_pesticidas,<NA>,1,0.79,2
+c26_local_preparo_solucao,No campo,125,98.43,2
+c26_local_preparo_solucao,Em casa,1,0.79,2
+c26_local_preparo_solucao,<NA>,1,0.79,2
+c27_reutiliza_recipientes,Não,126,99.21,1
+c27_reutiliza_recipientes,<NA>,1,0.79,1
+c28_destino_sobras_pesticidas,Mistura apenas a quantidade necessária,86,67.72,11
+c28_destino_sobras_pesticidas,Mistura apenas a quantidade necessária Ofereço colegas,15,11.81,11
+c28_destino_sobras_pesticidas,Descarta no campo,9,7.09,11
+c28_destino_sobras_pesticidas,Aplica noutras culturas,6,4.72,11
+c28_destino_sobras_pesticidas,Guardo para utilizar depois Ofereço colegas,2,1.57,11
+c28_destino_sobras_pesticidas,Ofereço colegas Guardo para utilizar depois,2,1.57,11
+c28_destino_sobras_pesticidas,Guardo para utilizar depois,2,1.57,11
+c28_destino_sobras_pesticidas,Mistura apenas a quantidade necessária Aplica noutras culturas,1,0.79,11
+c28_destino_sobras_pesticidas,Descarta no campo Aplica noutras culturas,1,0.79,11
+c28_destino_sobras_pesticidas,Guardo para utilizar depois Mistura apenas a quantidade necessária,1,0.79,11
+c28_destino_sobras_pesticidas,Mistura apenas a quantidade necessária Guardo para utilizar depois,1,0.79,11
+c28_destino_sobras_pesticidas,<NA>,1,0.79,11
+c29_destino_pesticidas_vencidos,Continua a utilizá-los,88,69.29,4
+c29_destino_pesticidas_vencidos,Compro o necessário,28,22.05,4
+c29_destino_pesticidas_vencidos,Descarta no campo,6,4.72,4
+c29_destino_pesticidas_vencidos,<NA>,4,3.15,4
+c29_destino_pesticidas_vencidos,Devolve ao comerciante,1,0.79,4
+c30_destino_embalagens_vazias,Deita no campo,81,63.78,11
+c30_destino_embalagens_vazias,Deita no campo Guardo para próxima compra,16,12.6,11
+c30_destino_embalagens_vazias,Guardo para próxima compra,10,7.87,11
+c30_destino_embalagens_vazias,Deita no campo Enterra,4,3.15,11
+c30_destino_embalagens_vazias,Deita no campo Queima,4,3.15,11
+c30_destino_embalagens_vazias,Deita no campo Coloca no lixo comum,3,2.36,11
+c30_destino_embalagens_vazias,Guardo para próxima compra Deita no campo,3,2.36,11
+c30_destino_embalagens_vazias,Queima,2,1.57,11
+c30_destino_embalagens_vazias,Queima Enterra,1,0.79,11
+c30_destino_embalagens_vazias,Queima Coloca no lixo comum,1,0.79,11
+c30_destino_embalagens_vazias,<NA>,1,0.79,11
+c30_destino_embalagens_vazias,Guardo para próxima compra Deita no campo Queima,1,0.79,11
+c31_usa_epi,Não,71,55.91,2
+c31_usa_epi,Sim,55,43.31,2
+c31_usa_epi,<NA>,1,0.79,2
+c31_1_frequencia_uso_epi,<NA>,72,56.69,3
+c31_1_frequencia_uso_epi,Poucas vezes,27,21.26,3
+c31_1_frequencia_uso_epi,Muitas vezes,21,16.54,3
+c31_1_frequencia_uso_epi,Sempre,7,5.51,3
+d32_percepcao_impacto_saude,Sim,122,96.06,2
+d32_percepcao_impacto_saude,Não sabe,5,3.94,2
+d32_1_sintomas_apos_aplicacao,Sim,102,80.31,2
+d32_1_sintomas_apos_aplicacao,Não,20,15.75,2
+d32_1_sintomas_apos_aplicacao,<NA>,5,3.94,2
+d33_percepcao_impacto_ambiente,Não sabe,92,72.44,3
+d33_percepcao_impacto_ambiente,Sim,34,26.77,3
+d33_percepcao_impacto_ambiente,Não,1,0.79,3
+d33_1_impactos_ambientais_percebidos,<NA>,93,73.23,8
+d33_1_impactos_ambientais_percebidos,Contaminação do solo Contaminação da água,23,18.11,8
+d33_1_impactos_ambientais_percebidos,Contaminação do solo Contaminação da água Morte dos insetos úteis,4,3.15,8
+d33_1_impactos_ambientais_percebidos,Contaminação da água Contaminação do solo Morte dos insetos úteis,2,1.57,8
+d33_1_impactos_ambientais_percebidos,Contaminação da água Contaminação do solo,1,0.79,8
+d33_1_impactos_ambientais_percebidos,Outro,1,0.79,8
+d33_1_impactos_ambientais_percebidos,Morte dos insetos úteis Contaminação da água Contaminação do solo,1,0.79,8
+d33_1_impactos_ambientais_percebidos,Contaminação do solo Morte dos insetos úteis,1,0.79,8
+d33_1_impactos_ambientais_percebidos,Contaminação do solo,1,0.79,8
+d33_2_razoes_continuar_usando_pesticidas,<NA>,93,73.23,4
+d33_2_razoes_continuar_usando_pesticidas,Falta de conhecimento,16,12.6,4
+d33_2_razoes_continuar_usando_pesticidas,Falta de conhecimento Falta de alternativas,14,11.02,4
+d33_2_razoes_continuar_usando_pesticidas,Falta de alternativas,3,2.36,4
+d33_2_razoes_continuar_usando_pesticidas,Falta de apoios tecnicos e financeiro,1,0.79,4
+e34_quer_mais_formacao,Sim,125,98.43,2
+e34_quer_mais_formacao,Não,2,1.57,2
+e34_1_temas_formacao,Proteção da saúde,39,30.71,13
+e34_1_temas_formacao,Uso correto dos pesticidas Proteção da saúde,25,19.69,13
+e34_1_temas_formacao,Proteção da saúde Alternativas aos pesticidas químicos,21,16.54,13
+e34_1_temas_formacao,Proteção da saúde Uso correto dos pesticidas,12,9.45,13
+e34_1_temas_formacao,Alternativas aos pesticidas químicos,5,3.94,13
+e34_1_temas_formacao,Uso correto dos pesticidas,5,3.94,13
+e34_1_temas_formacao,<NA>,5,3.94,13
+e34_1_temas_formacao,Uso correto dos pesticidas Proteção da saúde Alternativas aos pesticidas químicos Proteção do ambiente,4,3.15,13
+e34_1_temas_formacao,Proteção da saúde Proteção do ambiente,4,3.15,13
+e34_1_temas_formacao,Proteção do ambiente Proteção da saúde,2,1.57,13
+e34_1_temas_formacao,Uso correto dos pesticidas Alternativas aos pesticidas químicos,2,1.57,13
+e34_1_temas_formacao,Proteção da saúde Proteção do ambiente Uso correto dos pesticidas,1,0.79,13
+e34_1_temas_formacao,Alternativas aos pesticidas químicos Proteção da saúde,1,0.79,13
+e34_1_temas_formacao,Proteção do ambiente Alternativas aos pesticidas químicos,1,0.79,13
+e35_formas_sensibilizacao,Formação prática no campo,52,40.94,7
+e35_formas_sensibilizacao,Seminário em sala Formação prática no campo,37,29.13,7
+e35_formas_sensibilizacao,Formação prática no campo Seminário em sala,24,18.9,7
+e35_formas_sensibilizacao,Seminário em sala,7,5.51,7
+e35_formas_sensibilizacao,<NA>,3,2.36,7
+e35_formas_sensibilizacao,Campanhas de rádio ou TV Formação prática no campo,2,1.57,7
+e35_formas_sensibilizacao,Formação prática no campo Campanhas de rádio ou TV,1,0.79,7
+e35_formas_sensibilizacao,Seminário em sala Apoio regular de técnicos agrícolas,1,0.79,7
+derived_experiencia_grupo,Mais de 20 anos,64,50.39,4
+derived_experiencia_grupo,11-20 anos,35,27.56,4
+derived_experiencia_grupo,0-5 anos,19,14.96,4
+derived_experiencia_grupo,6-10 anos,9,7.09,4
+derived_idade_grupo,Entre 41 ou mais anos,100,78.74,5
+derived_idade_grupo,Entre 36 a 40 anos,10,7.87,5
+derived_idade_grupo,Entre 31 a 35 anos,8,6.3,5
+derived_idade_grupo,Entre 26 a 30 anos,8,6.3,5
+derived_idade_grupo,Entre 21 a 25 anos,1,0.79,5
+derived_percepcao_saude_bin,Sim,122,96.06,2
+derived_percepcao_saude_bin,Não/Não sabe,5,3.94,2
+derived_percepcao_ambiente_bin,Não/Não sabe,93,73.23,2
+derived_percepcao_ambiente_bin,Sim,34,26.77,2

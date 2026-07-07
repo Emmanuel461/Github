@@ -1,0 +1,157 @@
+﻿question_id,question_text,category,n,percent_valid,percent_total
+A1,A1. Bairro onde reside:,Outro,44,34.65,34.65
+A1,A1. Bairro onde reside:,Missira,21,16.54,16.54
+A1,A1. Bairro onde reside:,Sintra,15,11.81,11.81
+A1,A1. Bairro onde reside:,Cuntum Madina,14,11.02,11.02
+A1,A1. Bairro onde reside:,B. Ajuda,11,8.66,8.66
+A1,A1. Bairro onde reside:,Quelele,8,6.3,6.3
+A1,A1. Bairro onde reside:,B. Militar,5,3.94,3.94
+A1,A1. Bairro onde reside:,Luanda,4,3.15,3.15
+A1,A1. Bairro onde reside:,Pessak,4,3.15,3.15
+A1,A1. Bairro onde reside:,Reno,1,0.79,0.79
+A2,A2. Associação a que pertence:,Ajuda Mutua,45,35.43,35.43
+A2,A2. Associação a que pertence:,Outro,40,31.5,31.5
+A2,A2. Associação a que pertence:,Manel água,25,19.69,19.69
+A2,A2. Associação a que pertence:,Madina de Volta,14,11.02,11.02
+A2,A2. Associação a que pertence:,Edena (La ki nota kumenel),3,2.36,2.36
+A3,A3. Escolaridade:,4.ª classe (ensino básico),74,58.27,58.27
+A3,A3. Escolaridade:,Nunca frequentou a escola,31,24.41,24.41
+A3,A3. Escolaridade:,Ensino básico completo,19,14.96,14.96
+A3,A3. Escolaridade:,Ensino superior,3,2.36,2.36
+A4,A4. Idade:,Entre 41 ou mais anos,100,78.74,78.74
+A4,A4. Idade:,Entre 36 a 40 anos,10,7.87,7.87
+A4,A4. Idade:,Entre 26 a 30 anos,8,6.3,6.3
+A4,A4. Idade:,Entre 31 a 35 anos,8,6.3,6.3
+A4,A4. Idade:,Entre 21 a 25 anos,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,35,16,12.6,12.6
+A5,A5. Há quantos anos trabalha com horticultura?,40,13,10.24,10.24
+A5,A5. Há quantos anos trabalha com horticultura?,20,12,9.45,9.45
+A5,A5. Há quantos anos trabalha com horticultura?,30,12,9.45,9.45
+A5,A5. Há quantos anos trabalha com horticultura?,15,9,7.09,7.09
+A5,A5. Há quantos anos trabalha com horticultura?,25,7,5.51,5.51
+A5,A5. Há quantos anos trabalha com horticultura?,3,6,4.72,4.72
+A5,A5. Há quantos anos trabalha com horticultura?,5,6,4.72,4.72
+A5,A5. Há quantos anos trabalha com horticultura?,10,4,3.15,3.15
+A5,A5. Há quantos anos trabalha com horticultura?,4,4,3.15,3.15
+A5,A5. Há quantos anos trabalha com horticultura?,45,4,3.15,3.15
+A5,A5. Há quantos anos trabalha com horticultura?,12,3,2.36,2.36
+A5,A5. Há quantos anos trabalha com horticultura?,13,3,2.36,2.36
+A5,A5. Há quantos anos trabalha com horticultura?,2,3,2.36,2.36
+A5,A5. Há quantos anos trabalha com horticultura?,7,3,2.36,2.36
+A5,A5. Há quantos anos trabalha com horticultura?,14,2,1.57,1.57
+A5,A5. Há quantos anos trabalha com horticultura?,16,2,1.57,1.57
+A5,A5. Há quantos anos trabalha com horticultura?,27,2,1.57,1.57
+A5,A5. Há quantos anos trabalha com horticultura?,32,2,1.57,1.57
+A5,A5. Há quantos anos trabalha com horticultura?,33,2,1.57,1.57
+A5,A5. Há quantos anos trabalha com horticultura?,11,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,17,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,18,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,19,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,24,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,26,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,37,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,41,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,44,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,46,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,6,1,0.79,0.79
+A5,A5. Há quantos anos trabalha com horticultura?,9,1,0.79,0.79
+A6,A6. Já recebeu alguma formação sobre o uso de pesticida?,Sim,83,65.35,65.35
+A6,A6. Já recebeu alguma formação sobre o uso de pesticida?,Não,44,34.65,34.65
+A6a,"A6a. Se sim, quem ministrou a formação",IANDA GUINÉ,41,49.4,32.28
+A6a,"A6a. Se sim, quem ministrou a formação",Projeto,13,15.66,10.24
+A6a,"A6a. Se sim, quem ministrou a formação",Subsaid,6,7.23,4.72
+A6a,"A6a. Se sim, quem ministrou a formação",PNUD,5,6.02,3.94
+A6a,"A6a. Se sim, quem ministrou a formação",Projetos,4,4.82,3.15
+A6a,"A6a. Se sim, quem ministrou a formação",Micat,2,2.41,1.57
+A6a,"A6a. Se sim, quem ministrou a formação","Micat, Subsaid",2,2.41,1.57
+A6a,"A6a. Se sim, quem ministrou a formação","PNUD, Micap",2,2.41,1.57
+A6a,"A6a. Se sim, quem ministrou a formação","FAO,IMPA",1,1.2,0.79
+A6a,"A6a. Se sim, quem ministrou a formação",Mikat,1,1.2,0.79
+A6a,"A6a. Se sim, quem ministrou a formação",Pessoal de Proteção Vegetal,1,1.2,0.79
+A6a,"A6a. Se sim, quem ministrou a formação",Proteção Vegetal,1,1.2,0.79
+A6a,"A6a. Se sim, quem ministrou a formação","Subsaid, IANDA GUINÉ",1,1.2,0.79
+A6a,"A6a. Se sim, quem ministrou a formação","Subsaid, Micat",1,1.2,0.79
+A6a,"A6a. Se sim, quem ministrou a formação","Subsaid,Amae e Micat",1,1.2,0.79
+A6a,"A6a. Se sim, quem ministrou a formação","Subsaid,FAO IMPA",1,1.2,0.79
+B8,B8. Em cada canteiro coloca só uma cultura ou mistura várias?,Várias,125,98.43,98.43
+B8,B8. Em cada canteiro coloca só uma cultura ou mistura várias?,Uma cultura,2,1.57,1.57
+B9,B9. Costuma fazer rotação de culturas de um ano para outro?,Não,113,88.98,88.98
+B9,B9. Costuma fazer rotação de culturas de um ano para outro?,Sim,14,11.02,11.02
+B10,B10. Conheces pesticidas?,Sim,127,100.0,100.0
+B11,B11. Utiliza ou chegou de utilizar pesticidas na sua produção?,Sim,124,97.64,97.64
+B11,B11. Utiliza ou chegou de utilizar pesticidas na sua produção?,Não,3,2.36,2.36
+B13,B13. Onde compra os pesticidas?,No mercado,120,94.49,94.49
+B13,B13. Onde compra os pesticidas?,Outro,7,5.51,5.51
+B14,B14. Quando usa os pesticidas?,Quando começa a ver algumas pragas,73,57.94,57.48
+B14,B14. Quando usa os pesticidas?,Antes das pragas começarem a atacar,52,41.27,40.94
+B14,B14. Quando usa os pesticidas?,Quando a planta tem muitas pragas,1,0.79,0.79
+B15,B15. Durante quanto tempo aplica o pesticida em cada época de produção?,Enquanto à pragas,125,99.21,98.43
+B15,B15. Durante quanto tempo aplica o pesticida em cada época de produção?,Apenas uma vez,1,0.79,0.79
+B16,B16. Com que frequência aplica o pesticida?,Semanalmente,90,71.43,70.87
+B16,B16. Com que frequência aplica o pesticida?,Quinzenalmente,25,19.84,19.69
+B16,B16. Com que frequência aplica o pesticida?,Mensalmente,11,8.73,8.66
+B17,B17. Quais os critérios que utiliza para escolher os pesticidas?,Recomendação de colegas,75,59.52,59.06
+B17,B17. Quais os critérios que utiliza para escolher os pesticidas?,Recomendação de vendedores,49,38.89,38.58
+B17,B17. Quais os critérios que utiliza para escolher os pesticidas?,Outro,1,0.79,0.79
+B17,B17. Quais os critérios que utiliza para escolher os pesticidas?,Recomendação de técnicos agrícolas (ONGs ou Estado),1,0.79,0.79
+B18,B18. Usa na hortaliça pesticidas de outras culturas?,Não,121,96.03,95.28
+B18,B18. Usa na hortaliça pesticidas de outras culturas?,Sim,5,3.97,3.94
+B19,"B19. Quando alguma planta tem infestação da praga, já alguma vez usou produtos naturais para combater?",Sim,115,90.55,90.55
+B19,"B19. Quando alguma planta tem infestação da praga, já alguma vez usou produtos naturais para combater?",Não,12,9.45,9.45
+B19.2,B19.2. Quem lhe ensinou?,IANDA GUINÉ,39,33.91,30.71
+B19.2,B19.2. Quem lhe ensinou?,Colegas,32,27.83,25.2
+B19.2,B19.2. Quem lhe ensinou?,Projeto,15,13.04,11.81
+B19.2,B19.2. Quem lhe ensinou?,PNUD,6,5.22,4.72
+B19.2,B19.2. Quem lhe ensinou?,Subsaid,6,5.22,4.72
+B19.2,B19.2. Quem lhe ensinou?,Micat,5,4.35,3.94
+B19.2,B19.2. Quem lhe ensinou?,Projetos,2,1.74,1.57
+B19.2,B19.2. Quem lhe ensinou?,Através de colegas,1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,"FAO, IMPA",1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,"Micat, Subsaid, Pnud",1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,Mikat,1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,Pessoal de Proteção Vegetal,1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,Projeto Nicap,1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,"Subsaid, Amae e Micat",1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,"Subsaid, IANDA GUINÉ",1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,"Subsaid, IMPA e Micat",1,0.87,0.79
+B19.2,B19.2. Quem lhe ensinou?,"Subsaid, Pnud,Micat",1,0.87,0.79
+B19.3,"B19.3. Em caso afirmativo, acha que é eficaz a controlar essas pragas usando produtos naturais?",Sim,94,81.74,74.02
+B19.3,"B19.3. Em caso afirmativo, acha que é eficaz a controlar essas pragas usando produtos naturais?",Não,21,18.26,16.54
+B20,B20. Acha possível fazer agricultura sem o uso de pesticidas química?,Sim,72,56.69,56.69
+B20,B20. Acha possível fazer agricultura sem o uso de pesticidas química?,Não,55,43.31,43.31
+C21,C21. Conhece as regras de segurança sobre uso correto de pesticidas?,Não,116,91.34,91.34
+C21,C21. Conhece as regras de segurança sobre uso correto de pesticidas?,Sim,11,8.66,8.66
+C21a,"C21a. Se Sim, quem te contou?",Colegas,8,72.73,6.3
+C21a,"C21a. Se Sim, quem te contou?",Experiência,1,9.09,0.79
+C21a,"C21a. Se Sim, quem te contou?",Experiência própria,1,9.09,0.79
+C21a,"C21a. Se Sim, quem te contou?",Micat,1,9.09,0.79
+C22,C22. Sabe que alguns pesticidas são proibidos ou têm uso restrito?,Não,106,83.46,83.46
+C22,C22. Sabe que alguns pesticidas são proibidos ou têm uso restrito?,Sim,21,16.54,16.54
+C22.1,"C22.1. Se Sim, sabe quais são esses pesticidas?",Não,10,62.5,7.87
+C22.1,"C22.1. Se Sim, sabe quais são esses pesticidas?",Sim,6,37.5,4.72
+C22.2,"C22.2. Na sua opinião, por que razão alguns pesticidas são proibidos ou restringidos?",São muito tóxicos,16,100.0,12.6
+C24,"C24. Costuma ler, compreender e seguir as instruções dos rótulos dos pesticidas?",Não,124,98.41,97.64
+C24,"C24. Costuma ler, compreender e seguir as instruções dos rótulos dos pesticidas?",Sim,2,1.59,1.57
+C24.1,"C24.1. Se a resposta for “Não”, perguntar porquê:",Outro,81,65.32,63.78
+C24.1,"C24.1. Se a resposta for “Não”, perguntar porquê:",Não entendo porque não está em português,43,34.68,33.86
+C26,C26. Onde costuma preparar a solução de pesticidas para pulverização?,No campo,125,99.21,98.43
+C26,C26. Onde costuma preparar a solução de pesticidas para pulverização?,Em casa,1,0.79,0.79
+C27,C27. Costuma reutilizar os recipientes (garrafa) de pesticidas?,Não,126,100.0,99.21
+C29,C29. O que faz com pesticidas antigos ou fora de prazo?,Continua a utilizá-los,88,71.54,69.29
+C29,C29. O que faz com pesticidas antigos ou fora de prazo?,Compro o necessário,28,22.76,22.05
+C29,C29. O que faz com pesticidas antigos ou fora de prazo?,Descarta no campo,6,4.88,4.72
+C29,C29. O que faz com pesticidas antigos ou fora de prazo?,Devolve ao comerciante,1,0.81,0.79
+C31,C31. Costuma usar os equipamentos de proteção individual?,Não,71,56.35,55.91
+C31,C31. Costuma usar os equipamentos de proteção individual?,Sim,55,43.65,43.31
+C31.1,C31.1. Com que frequência utiliza os seguintes equipamentos durante a preparação ou aplicação de pesticidas?,Poucas vezes,27,49.09,21.26
+C31.1,C31.1. Com que frequência utiliza os seguintes equipamentos durante a preparação ou aplicação de pesticidas?,Muitas vezes,21,38.18,16.54
+C31.1,C31.1. Com que frequência utiliza os seguintes equipamentos durante a preparação ou aplicação de pesticidas?,Sempre,7,12.73,5.51
+D32,"D32. Na sua opinião, o uso de pesticidas pode causar problemas de saúde?",Sim,122,96.06,96.06
+D32,"D32. Na sua opinião, o uso de pesticidas pode causar problemas de saúde?",Não sabe,5,3.94,3.94
+D32.1,D32.1. Já sentiu algum problema de saúde após a aplicação de pesticidas?,Sim,102,83.61,80.31
+D32.1,D32.1. Já sentiu algum problema de saúde após a aplicação de pesticidas?,Não,20,16.39,15.75
+D33,D33. Acha que o uso de pesticidas pode causar danos ao ambiente?,Não sabe,92,72.44,72.44
+D33,D33. Acha que o uso de pesticidas pode causar danos ao ambiente?,Sim,34,26.77,26.77
+D33,D33. Acha que o uso de pesticidas pode causar danos ao ambiente?,Não,1,0.79,0.79
+E34,E34. Considera importante receber mais informação/formação sobre uso seguro e responsável de pesticidas?,Sim,125,98.43,98.43
+E34,E34. Considera importante receber mais informação/formação sobre uso seguro e responsável de pesticidas?,Não,2,1.57,1.57

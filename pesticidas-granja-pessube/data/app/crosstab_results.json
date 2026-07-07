@@ -1,0 +1,1928 @@
+[
+  {
+    "id": "formacao_conhecimento_seguranca",
+    "title": "Formação × conhecimento de segurança",
+    "x_variable": "a6_formacao_pesticidas",
+    "y_variable": "c21_conhece_regras_seguranca",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 2,
+      "columns": 2
+    },
+    "statistics": {
+      "chi_square": 0.2891,
+      "degrees_of_freedom": 1,
+      "p_value": 0.590777,
+      "alpha": 0.05,
+      "significant": false,
+      "cramers_v": 0.0477,
+      "effect_size_label": "Muito fraco",
+      "fisher_exact_p_value": 0.746607,
+      "fisher_exact_odds_ratio": 1.4578,
+      "expected_lt5_cells": 1,
+      "expected_lt5_percent": 25.0
+    },
+    "warning": "Há 1 células com frequência esperada inferior a 5 (25.0% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "Não",
+        "Não": 41,
+        "Sim": 3
+      },
+      {
+        "row_category": "Sim",
+        "Não": 75,
+        "Sim": 8
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "Não",
+        "Não": 93.18,
+        "Sim": 6.82
+      },
+      {
+        "row_category": "Sim",
+        "Não": 90.36,
+        "Sim": 9.64
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "Não",
+        "Não": 35.34,
+        "Sim": 27.27
+      },
+      {
+        "row_category": "Sim",
+        "Não": 64.66,
+        "Sim": 72.73
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "Não",
+        "Não": 40.19,
+        "Sim": 3.81
+      },
+      {
+        "row_category": "Sim",
+        "Não": 75.81,
+        "Sim": 7.19
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "Não",
+        "column_category": "Não",
+        "n": 41,
+        "row_percent": 93.18
+      },
+      {
+        "row_category": "Não",
+        "column_category": "Sim",
+        "n": 3,
+        "row_percent": 6.82
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Não",
+        "n": 75,
+        "row_percent": 90.36
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Sim",
+        "n": 8,
+        "row_percent": 9.64
+      }
+    ]
+  },
+  {
+    "id": "formacao_uso_epi",
+    "title": "Formação × uso de EPI",
+    "x_variable": "a6_formacao_pesticidas",
+    "y_variable": "c31_usa_epi",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 126,
+      "rows": 2,
+      "columns": 2
+    },
+    "statistics": {
+      "chi_square": 0.2066,
+      "degrees_of_freedom": 1,
+      "p_value": 0.64943,
+      "alpha": 0.05,
+      "significant": false,
+      "cramers_v": 0.0405,
+      "effect_size_label": "Muito fraco",
+      "fisher_exact_p_value": 0.70848,
+      "fisher_exact_odds_ratio": 1.1877,
+      "expected_lt5_cells": 0,
+      "expected_lt5_percent": 0.0
+    },
+    "warning": null,
+    "counts_table": [
+      {
+        "row_category": "Não",
+        "Não": 26,
+        "Sim": 18
+      },
+      {
+        "row_category": "Sim",
+        "Não": 45,
+        "Sim": 37
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "Não",
+        "Não": 59.09,
+        "Sim": 40.91
+      },
+      {
+        "row_category": "Sim",
+        "Não": 54.88,
+        "Sim": 45.12
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "Não",
+        "Não": 36.62,
+        "Sim": 32.73
+      },
+      {
+        "row_category": "Sim",
+        "Não": 63.38,
+        "Sim": 67.27
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "Não",
+        "Não": 24.79,
+        "Sim": 19.21
+      },
+      {
+        "row_category": "Sim",
+        "Não": 46.21,
+        "Sim": 35.79
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "Não",
+        "column_category": "Não",
+        "n": 26,
+        "row_percent": 59.09
+      },
+      {
+        "row_category": "Não",
+        "column_category": "Sim",
+        "n": 18,
+        "row_percent": 40.91
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Não",
+        "n": 45,
+        "row_percent": 54.88
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Sim",
+        "n": 37,
+        "row_percent": 45.12
+      }
+    ]
+  },
+  {
+    "id": "formacao_percepcao_saude",
+    "title": "Formação × perceção dos impactos na saúde",
+    "x_variable": "a6_formacao_pesticidas",
+    "y_variable": "d32_percepcao_impacto_saude",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 2,
+      "columns": 2
+    },
+    "statistics": {
+      "chi_square": 1.4777,
+      "degrees_of_freedom": 1,
+      "p_value": 0.22413,
+      "alpha": 0.05,
+      "significant": false,
+      "cramers_v": 0.1079,
+      "effect_size_label": "Fraco",
+      "fisher_exact_p_value": 0.340072,
+      "fisher_exact_odds_ratio": 2.9634,
+      "expected_lt5_cells": 2,
+      "expected_lt5_percent": 50.0
+    },
+    "warning": "Há 2 células com frequência esperada inferior a 5 (50.0% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "Não",
+        "Não sabe": 3,
+        "Sim": 41
+      },
+      {
+        "row_category": "Sim",
+        "Não sabe": 2,
+        "Sim": 81
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "Não",
+        "Não sabe": 6.82,
+        "Sim": 93.18
+      },
+      {
+        "row_category": "Sim",
+        "Não sabe": 2.41,
+        "Sim": 97.59
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "Não",
+        "Não sabe": 60.0,
+        "Sim": 33.61
+      },
+      {
+        "row_category": "Sim",
+        "Não sabe": 40.0,
+        "Sim": 66.39
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "Não",
+        "Não sabe": 1.73,
+        "Sim": 42.27
+      },
+      {
+        "row_category": "Sim",
+        "Não sabe": 3.27,
+        "Sim": 79.73
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "Não",
+        "column_category": "Não sabe",
+        "n": 3,
+        "row_percent": 6.82
+      },
+      {
+        "row_category": "Não",
+        "column_category": "Sim",
+        "n": 41,
+        "row_percent": 93.18
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Não sabe",
+        "n": 2,
+        "row_percent": 2.41
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Sim",
+        "n": 81,
+        "row_percent": 97.59
+      }
+    ]
+  },
+  {
+    "id": "formacao_percepcao_ambiente",
+    "title": "Formação × perceção dos impactos ambientais",
+    "x_variable": "a6_formacao_pesticidas",
+    "y_variable": "d33_percepcao_impacto_ambiente",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 2,
+      "columns": 3
+    },
+    "statistics": {
+      "chi_square": 7.4867,
+      "degrees_of_freedom": 2,
+      "p_value": 0.023675,
+      "alpha": 0.05,
+      "significant": true,
+      "cramers_v": 0.2428,
+      "effect_size_label": "Fraco",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 2,
+      "expected_lt5_percent": 33.33
+    },
+    "warning": "Há 2 células com frequência esperada inferior a 5 (33.33% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "Não",
+        "Não": 1,
+        "Não sabe": 37,
+        "Sim": 6
+      },
+      {
+        "row_category": "Sim",
+        "Não": 0,
+        "Não sabe": 55,
+        "Sim": 28
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "Não",
+        "Não": 2.27,
+        "Não sabe": 84.09,
+        "Sim": 13.64
+      },
+      {
+        "row_category": "Sim",
+        "Não": 0.0,
+        "Não sabe": 66.27,
+        "Sim": 33.73
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "Não",
+        "Não": 100.0,
+        "Não sabe": 40.22,
+        "Sim": 17.65
+      },
+      {
+        "row_category": "Sim",
+        "Não": 0.0,
+        "Não sabe": 59.78,
+        "Sim": 82.35
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "Não",
+        "Não": 0.35,
+        "Não sabe": 31.87,
+        "Sim": 11.78
+      },
+      {
+        "row_category": "Sim",
+        "Não": 0.65,
+        "Não sabe": 60.13,
+        "Sim": 22.22
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "Não",
+        "column_category": "Não",
+        "n": 1,
+        "row_percent": 2.27
+      },
+      {
+        "row_category": "Não",
+        "column_category": "Não sabe",
+        "n": 37,
+        "row_percent": 84.09
+      },
+      {
+        "row_category": "Não",
+        "column_category": "Sim",
+        "n": 6,
+        "row_percent": 13.64
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Não sabe",
+        "n": 55,
+        "row_percent": 66.27
+      },
+      {
+        "row_category": "Sim",
+        "column_category": "Sim",
+        "n": 28,
+        "row_percent": 33.73
+      }
+    ]
+  },
+  {
+    "id": "escolaridade_conhecimento_seguranca",
+    "title": "Escolaridade × conhecimento de segurança",
+    "x_variable": "a3_escolaridade",
+    "y_variable": "c21_conhece_regras_seguranca",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 4,
+      "columns": 2
+    },
+    "statistics": {
+      "chi_square": 18.8534,
+      "degrees_of_freedom": 3,
+      "p_value": 0.000293,
+      "alpha": 0.05,
+      "significant": true,
+      "cramers_v": 0.3853,
+      "effect_size_label": "Moderado",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 4,
+      "expected_lt5_percent": 50.0
+    },
+    "warning": "Há 4 células com frequência esperada inferior a 5 (50.0% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 70,
+        "Sim": 4
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 13,
+        "Sim": 6
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 2,
+        "Sim": 1
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 31,
+        "Sim": 0
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 94.59,
+        "Sim": 5.41
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 68.42,
+        "Sim": 31.58
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 66.67,
+        "Sim": 33.33
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 100.0,
+        "Sim": 0.0
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 60.34,
+        "Sim": 36.36
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 11.21,
+        "Sim": 54.55
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 1.72,
+        "Sim": 9.09
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 26.72,
+        "Sim": 0.0
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 67.59,
+        "Sim": 6.41
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 17.35,
+        "Sim": 1.65
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 2.74,
+        "Sim": 0.26
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 28.31,
+        "Sim": 2.69
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Não",
+        "n": 70,
+        "row_percent": 94.59
+      },
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Sim",
+        "n": 4,
+        "row_percent": 5.41
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Não",
+        "n": 13,
+        "row_percent": 68.42
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Sim",
+        "n": 6,
+        "row_percent": 31.58
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Não",
+        "n": 2,
+        "row_percent": 66.67
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Sim",
+        "n": 1,
+        "row_percent": 33.33
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Não",
+        "n": 31,
+        "row_percent": 100.0
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Sim",
+        "n": 0,
+        "row_percent": 0.0
+      }
+    ]
+  },
+  {
+    "id": "escolaridade_uso_epi",
+    "title": "Escolaridade × uso de EPI",
+    "x_variable": "a3_escolaridade",
+    "y_variable": "c31_usa_epi",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 126,
+      "rows": 4,
+      "columns": 2
+    },
+    "statistics": {
+      "chi_square": 0.4727,
+      "degrees_of_freedom": 3,
+      "p_value": 0.92485,
+      "alpha": 0.05,
+      "significant": false,
+      "cramers_v": 0.0612,
+      "effect_size_label": "Muito fraco",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 2,
+      "expected_lt5_percent": 25.0
+    },
+    "warning": "Há 2 células com frequência esperada inferior a 5 (25.0% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 42,
+        "Sim": 31
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 11,
+        "Sim": 8
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 2,
+        "Sim": 1
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 16,
+        "Sim": 15
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 57.53,
+        "Sim": 42.47
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 57.89,
+        "Sim": 42.11
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 66.67,
+        "Sim": 33.33
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 51.61,
+        "Sim": 48.39
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 59.15,
+        "Sim": 56.36
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 15.49,
+        "Sim": 14.55
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 2.82,
+        "Sim": 1.82
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 22.54,
+        "Sim": 27.27
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 41.13,
+        "Sim": 31.87
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 10.71,
+        "Sim": 8.29
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 1.69,
+        "Sim": 1.31
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 17.47,
+        "Sim": 13.53
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Não",
+        "n": 42,
+        "row_percent": 57.53
+      },
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Sim",
+        "n": 31,
+        "row_percent": 42.47
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Não",
+        "n": 11,
+        "row_percent": 57.89
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Sim",
+        "n": 8,
+        "row_percent": 42.11
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Não",
+        "n": 2,
+        "row_percent": 66.67
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Sim",
+        "n": 1,
+        "row_percent": 33.33
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Não",
+        "n": 16,
+        "row_percent": 51.61
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Sim",
+        "n": 15,
+        "row_percent": 48.39
+      }
+    ]
+  },
+  {
+    "id": "escolaridade_percepcao_saude",
+    "title": "Escolaridade × perceção dos impactos na saúde",
+    "x_variable": "a3_escolaridade",
+    "y_variable": "d32_percepcao_impacto_saude",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 4,
+      "columns": 2
+    },
+    "statistics": {
+      "chi_square": 1.0277,
+      "degrees_of_freedom": 3,
+      "p_value": 0.794551,
+      "alpha": 0.05,
+      "significant": false,
+      "cramers_v": 0.09,
+      "effect_size_label": "Muito fraco",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 5,
+      "expected_lt5_percent": 62.5
+    },
+    "warning": "Há 5 células com frequência esperada inferior a 5 (62.5% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não sabe": 2,
+        "Sim": 72
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não sabe": 1,
+        "Sim": 18
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não sabe": 0,
+        "Sim": 3
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não sabe": 2,
+        "Sim": 29
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não sabe": 2.7,
+        "Sim": 97.3
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não sabe": 5.26,
+        "Sim": 94.74
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não sabe": 0.0,
+        "Sim": 100.0
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não sabe": 6.45,
+        "Sim": 93.55
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não sabe": 40.0,
+        "Sim": 59.02
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não sabe": 20.0,
+        "Sim": 14.75
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não sabe": 0.0,
+        "Sim": 2.46
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não sabe": 40.0,
+        "Sim": 23.77
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não sabe": 2.91,
+        "Sim": 71.09
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não sabe": 0.75,
+        "Sim": 18.25
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não sabe": 0.12,
+        "Sim": 2.88
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não sabe": 1.22,
+        "Sim": 29.78
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Não sabe",
+        "n": 2,
+        "row_percent": 2.7
+      },
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Sim",
+        "n": 72,
+        "row_percent": 97.3
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Não sabe",
+        "n": 1,
+        "row_percent": 5.26
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Sim",
+        "n": 18,
+        "row_percent": 94.74
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Não sabe",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Sim",
+        "n": 3,
+        "row_percent": 100.0
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Não sabe",
+        "n": 2,
+        "row_percent": 6.45
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Sim",
+        "n": 29,
+        "row_percent": 93.55
+      }
+    ]
+  },
+  {
+    "id": "escolaridade_percepcao_ambiente",
+    "title": "Escolaridade × perceção dos impactos ambientais",
+    "x_variable": "a3_escolaridade",
+    "y_variable": "d33_percepcao_impacto_ambiente",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 4,
+      "columns": 3
+    },
+    "statistics": {
+      "chi_square": 20.0823,
+      "degrees_of_freedom": 6,
+      "p_value": 0.002678,
+      "alpha": 0.05,
+      "significant": true,
+      "cramers_v": 0.2812,
+      "effect_size_label": "Fraco",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 6,
+      "expected_lt5_percent": 50.0
+    },
+    "warning": "Há 6 células com frequência esperada inferior a 5 (50.0% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 0,
+        "Não sabe": 55,
+        "Sim": 19
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 1,
+        "Não sabe": 8,
+        "Sim": 10
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 0,
+        "Não sabe": 1,
+        "Sim": 2
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 0,
+        "Não sabe": 28,
+        "Sim": 3
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 0.0,
+        "Não sabe": 74.32,
+        "Sim": 25.68
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 5.26,
+        "Não sabe": 42.11,
+        "Sim": 52.63
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 0.0,
+        "Não sabe": 33.33,
+        "Sim": 66.67
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 0.0,
+        "Não sabe": 90.32,
+        "Sim": 9.68
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 0.0,
+        "Não sabe": 59.78,
+        "Sim": 55.88
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 100.0,
+        "Não sabe": 8.7,
+        "Sim": 29.41
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 0.0,
+        "Não sabe": 1.09,
+        "Sim": 5.88
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 0.0,
+        "Não sabe": 30.43,
+        "Sim": 8.82
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "Não": 0.58,
+        "Não sabe": 53.61,
+        "Sim": 19.81
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "Não": 0.15,
+        "Não sabe": 13.76,
+        "Sim": 5.09
+      },
+      {
+        "row_category": "Ensino superior",
+        "Não": 0.02,
+        "Não sabe": 2.17,
+        "Sim": 0.8
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "Não": 0.24,
+        "Não sabe": 22.46,
+        "Sim": 8.3
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Não sabe",
+        "n": 55,
+        "row_percent": 74.32
+      },
+      {
+        "row_category": "4.ª classe (ensino básico)",
+        "column_category": "Sim",
+        "n": 19,
+        "row_percent": 25.68
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Não",
+        "n": 1,
+        "row_percent": 5.26
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Não sabe",
+        "n": 8,
+        "row_percent": 42.11
+      },
+      {
+        "row_category": "Ensino básico completo",
+        "column_category": "Sim",
+        "n": 10,
+        "row_percent": 52.63
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Não sabe",
+        "n": 1,
+        "row_percent": 33.33
+      },
+      {
+        "row_category": "Ensino superior",
+        "column_category": "Sim",
+        "n": 2,
+        "row_percent": 66.67
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Não sabe",
+        "n": 28,
+        "row_percent": 90.32
+      },
+      {
+        "row_category": "Nunca frequentou a escola",
+        "column_category": "Sim",
+        "n": 3,
+        "row_percent": 9.68
+      }
+    ]
+  },
+  {
+    "id": "idade_percepcao_saude",
+    "title": "Idade × perceção dos impactos na saúde",
+    "x_variable": "derived_idade_grupo",
+    "y_variable": "d32_percepcao_impacto_saude",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 5,
+      "columns": 2
+    },
+    "statistics": {
+      "chi_square": 3.785,
+      "degrees_of_freedom": 4,
+      "p_value": 0.435882,
+      "alpha": 0.05,
+      "significant": false,
+      "cramers_v": 0.1726,
+      "effect_size_label": "Fraco",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 6,
+      "expected_lt5_percent": 60.0
+    },
+    "warning": "Há 6 células com frequência esperada inferior a 5 (60.0% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "Não sabe": 0,
+        "Sim": 1
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "Não sabe": 1,
+        "Sim": 7
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "Não sabe": 1,
+        "Sim": 7
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "Não sabe": 0,
+        "Sim": 10
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "Não sabe": 3,
+        "Sim": 97
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "Não sabe": 0.0,
+        "Sim": 100.0
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "Não sabe": 12.5,
+        "Sim": 87.5
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "Não sabe": 12.5,
+        "Sim": 87.5
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "Não sabe": 0.0,
+        "Sim": 100.0
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "Não sabe": 3.0,
+        "Sim": 97.0
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "Não sabe": 0.0,
+        "Sim": 0.82
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "Não sabe": 20.0,
+        "Sim": 5.74
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "Não sabe": 20.0,
+        "Sim": 5.74
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "Não sabe": 0.0,
+        "Sim": 8.2
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "Não sabe": 60.0,
+        "Sim": 79.51
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "Não sabe": 0.04,
+        "Sim": 0.96
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "Não sabe": 0.31,
+        "Sim": 7.69
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "Não sabe": 0.31,
+        "Sim": 7.69
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "Não sabe": 0.39,
+        "Sim": 9.61
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "Não sabe": 3.94,
+        "Sim": 96.06
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "column_category": "Não sabe",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "column_category": "Sim",
+        "n": 1,
+        "row_percent": 100.0
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "column_category": "Não sabe",
+        "n": 1,
+        "row_percent": 12.5
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "column_category": "Sim",
+        "n": 7,
+        "row_percent": 87.5
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "column_category": "Não sabe",
+        "n": 1,
+        "row_percent": 12.5
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "column_category": "Sim",
+        "n": 7,
+        "row_percent": 87.5
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "column_category": "Não sabe",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "column_category": "Sim",
+        "n": 10,
+        "row_percent": 100.0
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "column_category": "Não sabe",
+        "n": 3,
+        "row_percent": 3.0
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "column_category": "Sim",
+        "n": 97,
+        "row_percent": 97.0
+      }
+    ]
+  },
+  {
+    "id": "idade_percepcao_ambiente",
+    "title": "Idade × perceção dos impactos ambientais",
+    "x_variable": "derived_idade_grupo",
+    "y_variable": "d33_percepcao_impacto_ambiente",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 5,
+      "columns": 3
+    },
+    "statistics": {
+      "chi_square": 18.9915,
+      "degrees_of_freedom": 8,
+      "p_value": 0.014905,
+      "alpha": 0.05,
+      "significant": true,
+      "cramers_v": 0.2734,
+      "effect_size_label": "Fraco",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 10,
+      "expected_lt5_percent": 66.67
+    },
+    "warning": "Há 10 células com frequência esperada inferior a 5 (66.67% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "Não": 0,
+        "Não sabe": 1,
+        "Sim": 0
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "Não": 0,
+        "Não sabe": 5,
+        "Sim": 3
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "Não": 1,
+        "Não sabe": 5,
+        "Sim": 2
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "Não": 0,
+        "Não sabe": 5,
+        "Sim": 5
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "Não": 0,
+        "Não sabe": 76,
+        "Sim": 24
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "Não": 0.0,
+        "Não sabe": 100.0,
+        "Sim": 0.0
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "Não": 0.0,
+        "Não sabe": 62.5,
+        "Sim": 37.5
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "Não": 12.5,
+        "Não sabe": 62.5,
+        "Sim": 25.0
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "Não": 0.0,
+        "Não sabe": 50.0,
+        "Sim": 50.0
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "Não": 0.0,
+        "Não sabe": 76.0,
+        "Sim": 24.0
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "Não": 0.0,
+        "Não sabe": 1.09,
+        "Sim": 0.0
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "Não": 0.0,
+        "Não sabe": 5.43,
+        "Sim": 8.82
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "Não": 100.0,
+        "Não sabe": 5.43,
+        "Sim": 5.88
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "Não": 0.0,
+        "Não sabe": 5.43,
+        "Sim": 14.71
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "Não": 0.0,
+        "Não sabe": 82.61,
+        "Sim": 70.59
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "Não": 0.01,
+        "Não sabe": 0.72,
+        "Sim": 0.27
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "Não": 0.06,
+        "Não sabe": 5.8,
+        "Sim": 2.14
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "Não": 0.06,
+        "Não sabe": 5.8,
+        "Sim": 2.14
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "Não": 0.08,
+        "Não sabe": 7.24,
+        "Sim": 2.68
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "Não": 0.79,
+        "Não sabe": 72.44,
+        "Sim": 26.77
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "column_category": "Não sabe",
+        "n": 1,
+        "row_percent": 100.0
+      },
+      {
+        "row_category": "Entre 21 a 25 anos",
+        "column_category": "Sim",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "column_category": "Não sabe",
+        "n": 5,
+        "row_percent": 62.5
+      },
+      {
+        "row_category": "Entre 26 a 30 anos",
+        "column_category": "Sim",
+        "n": 3,
+        "row_percent": 37.5
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "column_category": "Não",
+        "n": 1,
+        "row_percent": 12.5
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "column_category": "Não sabe",
+        "n": 5,
+        "row_percent": 62.5
+      },
+      {
+        "row_category": "Entre 31 a 35 anos",
+        "column_category": "Sim",
+        "n": 2,
+        "row_percent": 25.0
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "column_category": "Não sabe",
+        "n": 5,
+        "row_percent": 50.0
+      },
+      {
+        "row_category": "Entre 36 a 40 anos",
+        "column_category": "Sim",
+        "n": 5,
+        "row_percent": 50.0
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "column_category": "Não sabe",
+        "n": 76,
+        "row_percent": 76.0
+      },
+      {
+        "row_category": "Entre 41 ou mais anos",
+        "column_category": "Sim",
+        "n": 24,
+        "row_percent": 24.0
+      }
+    ]
+  },
+  {
+    "id": "experiencia_percepcao_saude",
+    "title": "Experiência em horticultura × perceção dos impactos na saúde",
+    "x_variable": "derived_experiencia_grupo",
+    "y_variable": "d32_percepcao_impacto_saude",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 4,
+      "columns": 2
+    },
+    "statistics": {
+      "chi_square": 8.4884,
+      "degrees_of_freedom": 3,
+      "p_value": 0.036927,
+      "alpha": 0.05,
+      "significant": true,
+      "cramers_v": 0.2585,
+      "effect_size_label": "Fraco",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 4,
+      "expected_lt5_percent": 50.0
+    },
+    "warning": "Há 4 células com frequência esperada inferior a 5 (50.0% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "0-5 anos",
+        "Não sabe": 3,
+        "Sim": 16
+      },
+      {
+        "row_category": "11-20 anos",
+        "Não sabe": 1,
+        "Sim": 34
+      },
+      {
+        "row_category": "6-10 anos",
+        "Não sabe": 0,
+        "Sim": 9
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "Não sabe": 1,
+        "Sim": 63
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "0-5 anos",
+        "Não sabe": 15.79,
+        "Sim": 84.21
+      },
+      {
+        "row_category": "11-20 anos",
+        "Não sabe": 2.86,
+        "Sim": 97.14
+      },
+      {
+        "row_category": "6-10 anos",
+        "Não sabe": 0.0,
+        "Sim": 100.0
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "Não sabe": 1.56,
+        "Sim": 98.44
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "0-5 anos",
+        "Não sabe": 60.0,
+        "Sim": 13.11
+      },
+      {
+        "row_category": "11-20 anos",
+        "Não sabe": 20.0,
+        "Sim": 27.87
+      },
+      {
+        "row_category": "6-10 anos",
+        "Não sabe": 0.0,
+        "Sim": 7.38
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "Não sabe": 20.0,
+        "Sim": 51.64
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "0-5 anos",
+        "Não sabe": 0.75,
+        "Sim": 18.25
+      },
+      {
+        "row_category": "11-20 anos",
+        "Não sabe": 1.38,
+        "Sim": 33.62
+      },
+      {
+        "row_category": "6-10 anos",
+        "Não sabe": 0.35,
+        "Sim": 8.65
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "Não sabe": 2.52,
+        "Sim": 61.48
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "0-5 anos",
+        "column_category": "Não sabe",
+        "n": 3,
+        "row_percent": 15.79
+      },
+      {
+        "row_category": "0-5 anos",
+        "column_category": "Sim",
+        "n": 16,
+        "row_percent": 84.21
+      },
+      {
+        "row_category": "11-20 anos",
+        "column_category": "Não sabe",
+        "n": 1,
+        "row_percent": 2.86
+      },
+      {
+        "row_category": "11-20 anos",
+        "column_category": "Sim",
+        "n": 34,
+        "row_percent": 97.14
+      },
+      {
+        "row_category": "6-10 anos",
+        "column_category": "Não sabe",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "6-10 anos",
+        "column_category": "Sim",
+        "n": 9,
+        "row_percent": 100.0
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "column_category": "Não sabe",
+        "n": 1,
+        "row_percent": 1.56
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "column_category": "Sim",
+        "n": 63,
+        "row_percent": 98.44
+      }
+    ]
+  },
+  {
+    "id": "experiencia_percepcao_ambiente",
+    "title": "Experiência em horticultura × perceção dos impactos ambientais",
+    "x_variable": "derived_experiencia_grupo",
+    "y_variable": "d33_percepcao_impacto_ambiente",
+    "test": "chi_square",
+    "summary": {
+      "valid_n": 127,
+      "rows": 4,
+      "columns": 3
+    },
+    "statistics": {
+      "chi_square": 3.2824,
+      "degrees_of_freedom": 6,
+      "p_value": 0.772658,
+      "alpha": 0.05,
+      "significant": false,
+      "cramers_v": 0.1137,
+      "effect_size_label": "Fraco",
+      "fisher_exact_p_value": null,
+      "fisher_exact_odds_ratio": null,
+      "expected_lt5_cells": 5,
+      "expected_lt5_percent": 41.67
+    },
+    "warning": "Há 5 células com frequência esperada inferior a 5 (41.67% das células). Interpretar o Qui-quadrado com cautela.",
+    "counts_table": [
+      {
+        "row_category": "0-5 anos",
+        "Não": 0,
+        "Não sabe": 15,
+        "Sim": 4
+      },
+      {
+        "row_category": "11-20 anos",
+        "Não": 1,
+        "Não sabe": 24,
+        "Sim": 10
+      },
+      {
+        "row_category": "6-10 anos",
+        "Não": 0,
+        "Não sabe": 6,
+        "Sim": 3
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "Não": 0,
+        "Não sabe": 47,
+        "Sim": 17
+      }
+    ],
+    "row_percent_table": [
+      {
+        "row_category": "0-5 anos",
+        "Não": 0.0,
+        "Não sabe": 78.95,
+        "Sim": 21.05
+      },
+      {
+        "row_category": "11-20 anos",
+        "Não": 2.86,
+        "Não sabe": 68.57,
+        "Sim": 28.57
+      },
+      {
+        "row_category": "6-10 anos",
+        "Não": 0.0,
+        "Não sabe": 66.67,
+        "Sim": 33.33
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "Não": 0.0,
+        "Não sabe": 73.44,
+        "Sim": 26.56
+      }
+    ],
+    "column_percent_table": [
+      {
+        "row_category": "0-5 anos",
+        "Não": 0.0,
+        "Não sabe": 16.3,
+        "Sim": 11.76
+      },
+      {
+        "row_category": "11-20 anos",
+        "Não": 100.0,
+        "Não sabe": 26.09,
+        "Sim": 29.41
+      },
+      {
+        "row_category": "6-10 anos",
+        "Não": 0.0,
+        "Não sabe": 6.52,
+        "Sim": 8.82
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "Não": 0.0,
+        "Não sabe": 51.09,
+        "Sim": 50.0
+      }
+    ],
+    "expected_table": [
+      {
+        "row_category": "0-5 anos",
+        "Não": 0.15,
+        "Não sabe": 13.76,
+        "Sim": 5.09
+      },
+      {
+        "row_category": "11-20 anos",
+        "Não": 0.28,
+        "Não sabe": 25.35,
+        "Sim": 9.37
+      },
+      {
+        "row_category": "6-10 anos",
+        "Não": 0.07,
+        "Não sabe": 6.52,
+        "Sim": 2.41
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "Não": 0.5,
+        "Não sabe": 46.36,
+        "Sim": 17.13
+      }
+    ],
+    "plot_rows": [
+      {
+        "row_category": "0-5 anos",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "0-5 anos",
+        "column_category": "Não sabe",
+        "n": 15,
+        "row_percent": 78.95
+      },
+      {
+        "row_category": "0-5 anos",
+        "column_category": "Sim",
+        "n": 4,
+        "row_percent": 21.05
+      },
+      {
+        "row_category": "11-20 anos",
+        "column_category": "Não",
+        "n": 1,
+        "row_percent": 2.86
+      },
+      {
+        "row_category": "11-20 anos",
+        "column_category": "Não sabe",
+        "n": 24,
+        "row_percent": 68.57
+      },
+      {
+        "row_category": "11-20 anos",
+        "column_category": "Sim",
+        "n": 10,
+        "row_percent": 28.57
+      },
+      {
+        "row_category": "6-10 anos",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "6-10 anos",
+        "column_category": "Não sabe",
+        "n": 6,
+        "row_percent": 66.67
+      },
+      {
+        "row_category": "6-10 anos",
+        "column_category": "Sim",
+        "n": 3,
+        "row_percent": 33.33
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "column_category": "Não",
+        "n": 0,
+        "row_percent": 0.0
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "column_category": "Não sabe",
+        "n": 47,
+        "row_percent": 73.44
+      },
+      {
+        "row_category": "Mais de 20 anos",
+        "column_category": "Sim",
+        "n": 17,
+        "row_percent": 26.56
+      }
+    ]
+  }
+]

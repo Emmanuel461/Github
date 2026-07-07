@@ -1,0 +1,20 @@
+{
+  "generated_by": "scripts/02_generate_app_outputs.py",
+  "source_files": {
+    "clean_wide": "data/processed/questionario_clean_wide.csv",
+    "multiple_choice_long": "data/processed/multiple_choice_long.csv",
+    "questions": "data/processed/question_catalog_app.csv",
+    "config": "data/app/app_config.json"
+  },
+  "outputs": {
+    "questions": "data/app/questions.json",
+    "dashboard_cards": "data/app/dashboard_cards.json",
+    "descriptive_results": "data/app/descriptive_results.json",
+    "multiple_choice_results": "data/app/multiple_choice_results.json",
+    "crosstab_results": "data/app/crosstab_results.json"
+  },
+  "notes": [
+    "A app web apenas lê estes JSON e renderiza tabelas/gráficos.",
+    "As frequências, percentagens, Qui-quadrado e Cramer's V são calculados neste script Python."
+  ]
+}

@@ -1,0 +1,1604 @@
+[
+  {
+    "question_id": "A1",
+    "question_text": "A1. Bairro onde reside:",
+    "question_label": "Bairro onde reside:",
+    "app_section": "Caracterização da amostra",
+    "objective": "Caracterizar a amostra",
+    "variable_type": "single_choice_or_text",
+    "variable": "a1_bairro",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 10
+    },
+    "rows": [
+      {
+        "category": "Outro",
+        "n": 44,
+        "percent_valid": 34.65,
+        "percent_total": 34.65
+      },
+      {
+        "category": "Missira",
+        "n": 21,
+        "percent_valid": 16.54,
+        "percent_total": 16.54
+      },
+      {
+        "category": "Sintra",
+        "n": 15,
+        "percent_valid": 11.81,
+        "percent_total": 11.81
+      },
+      {
+        "category": "Cuntum Madina",
+        "n": 14,
+        "percent_valid": 11.02,
+        "percent_total": 11.02
+      },
+      {
+        "category": "B. Ajuda",
+        "n": 11,
+        "percent_valid": 8.66,
+        "percent_total": 8.66
+      },
+      {
+        "category": "Quelele",
+        "n": 8,
+        "percent_valid": 6.3,
+        "percent_total": 6.3
+      },
+      {
+        "category": "B. Militar",
+        "n": 5,
+        "percent_valid": 3.94,
+        "percent_total": 3.94
+      },
+      {
+        "category": "Luanda",
+        "n": 4,
+        "percent_valid": 3.15,
+        "percent_total": 3.15
+      },
+      {
+        "category": "Pessak",
+        "n": 4,
+        "percent_valid": 3.15,
+        "percent_total": 3.15
+      },
+      {
+        "category": "Reno",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "A2",
+    "question_text": "A2. Associação a que pertence:",
+    "question_label": "Associação a que pertence:",
+    "app_section": "Caracterização da amostra",
+    "objective": "Caracterizar a amostra",
+    "variable_type": "single_choice_or_text",
+    "variable": "a2_associacao",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 5
+    },
+    "rows": [
+      {
+        "category": "Ajuda Mutua",
+        "n": 45,
+        "percent_valid": 35.43,
+        "percent_total": 35.43
+      },
+      {
+        "category": "Outro",
+        "n": 40,
+        "percent_valid": 31.5,
+        "percent_total": 31.5
+      },
+      {
+        "category": "Manel água",
+        "n": 25,
+        "percent_valid": 19.69,
+        "percent_total": 19.69
+      },
+      {
+        "category": "Madina de Volta",
+        "n": 14,
+        "percent_valid": 11.02,
+        "percent_total": 11.02
+      },
+      {
+        "category": "Edena (La ki nota kumenel)",
+        "n": 3,
+        "percent_valid": 2.36,
+        "percent_total": 2.36
+      }
+    ]
+  },
+  {
+    "question_id": "A3",
+    "question_text": "A3. Escolaridade:",
+    "question_label": "Escolaridade:",
+    "app_section": "Caracterização da amostra",
+    "objective": "Caracterizar a amostra",
+    "variable_type": "single_choice_or_text",
+    "variable": "a3_escolaridade",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 4
+    },
+    "rows": [
+      {
+        "category": "4.ª classe (ensino básico)",
+        "n": 74,
+        "percent_valid": 58.27,
+        "percent_total": 58.27
+      },
+      {
+        "category": "Nunca frequentou a escola",
+        "n": 31,
+        "percent_valid": 24.41,
+        "percent_total": 24.41
+      },
+      {
+        "category": "Ensino básico completo",
+        "n": 19,
+        "percent_valid": 14.96,
+        "percent_total": 14.96
+      },
+      {
+        "category": "Ensino superior",
+        "n": 3,
+        "percent_valid": 2.36,
+        "percent_total": 2.36
+      }
+    ]
+  },
+  {
+    "question_id": "A4",
+    "question_text": "A4. Idade:",
+    "question_label": "Idade:",
+    "app_section": "Caracterização da amostra",
+    "objective": "Caracterizar a amostra",
+    "variable_type": "single_choice_or_text",
+    "variable": "a4_idade",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 5
+    },
+    "rows": [
+      {
+        "category": "Entre 41 ou mais anos",
+        "n": 100,
+        "percent_valid": 78.74,
+        "percent_total": 78.74
+      },
+      {
+        "category": "Entre 36 a 40 anos",
+        "n": 10,
+        "percent_valid": 7.87,
+        "percent_total": 7.87
+      },
+      {
+        "category": "Entre 26 a 30 anos",
+        "n": 8,
+        "percent_valid": 6.3,
+        "percent_total": 6.3
+      },
+      {
+        "category": "Entre 31 a 35 anos",
+        "n": 8,
+        "percent_valid": 6.3,
+        "percent_total": 6.3
+      },
+      {
+        "category": "Entre 21 a 25 anos",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "A5",
+    "question_text": "A5. Há quantos anos trabalha com horticultura?",
+    "question_label": "Há quantos anos trabalha com horticultura?",
+    "app_section": "Caracterização da amostra",
+    "objective": "Caracterizar a amostra",
+    "variable_type": "single_choice_or_text",
+    "variable": "a5_anos_horticultura",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 32
+    },
+    "rows": [
+      {
+        "category": "35",
+        "n": 16,
+        "percent_valid": 12.6,
+        "percent_total": 12.6
+      },
+      {
+        "category": "40",
+        "n": 13,
+        "percent_valid": 10.24,
+        "percent_total": 10.24
+      },
+      {
+        "category": "20",
+        "n": 12,
+        "percent_valid": 9.45,
+        "percent_total": 9.45
+      },
+      {
+        "category": "30",
+        "n": 12,
+        "percent_valid": 9.45,
+        "percent_total": 9.45
+      },
+      {
+        "category": "15",
+        "n": 9,
+        "percent_valid": 7.09,
+        "percent_total": 7.09
+      },
+      {
+        "category": "25",
+        "n": 7,
+        "percent_valid": 5.51,
+        "percent_total": 5.51
+      },
+      {
+        "category": "3",
+        "n": 6,
+        "percent_valid": 4.72,
+        "percent_total": 4.72
+      },
+      {
+        "category": "5",
+        "n": 6,
+        "percent_valid": 4.72,
+        "percent_total": 4.72
+      },
+      {
+        "category": "10",
+        "n": 4,
+        "percent_valid": 3.15,
+        "percent_total": 3.15
+      },
+      {
+        "category": "4",
+        "n": 4,
+        "percent_valid": 3.15,
+        "percent_total": 3.15
+      },
+      {
+        "category": "45",
+        "n": 4,
+        "percent_valid": 3.15,
+        "percent_total": 3.15
+      },
+      {
+        "category": "12",
+        "n": 3,
+        "percent_valid": 2.36,
+        "percent_total": 2.36
+      },
+      {
+        "category": "13",
+        "n": 3,
+        "percent_valid": 2.36,
+        "percent_total": 2.36
+      },
+      {
+        "category": "2",
+        "n": 3,
+        "percent_valid": 2.36,
+        "percent_total": 2.36
+      },
+      {
+        "category": "7",
+        "n": 3,
+        "percent_valid": 2.36,
+        "percent_total": 2.36
+      },
+      {
+        "category": "14",
+        "n": 2,
+        "percent_valid": 1.57,
+        "percent_total": 1.57
+      },
+      {
+        "category": "16",
+        "n": 2,
+        "percent_valid": 1.57,
+        "percent_total": 1.57
+      },
+      {
+        "category": "27",
+        "n": 2,
+        "percent_valid": 1.57,
+        "percent_total": 1.57
+      },
+      {
+        "category": "32",
+        "n": 2,
+        "percent_valid": 1.57,
+        "percent_total": 1.57
+      },
+      {
+        "category": "33",
+        "n": 2,
+        "percent_valid": 1.57,
+        "percent_total": 1.57
+      },
+      {
+        "category": "11",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "17",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "18",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "19",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "24",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "26",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "37",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "41",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "44",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "46",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "6",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "9",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "A6",
+    "question_text": "A6. Já recebeu alguma formação sobre o uso de pesticida?",
+    "question_label": "Já recebeu alguma formação sobre o uso de pesticida?",
+    "app_section": "Caracterização da amostra",
+    "objective": "Caracterizar a amostra",
+    "variable_type": "single_choice_or_text",
+    "variable": "a6_formacao_pesticidas",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 83,
+        "percent_valid": 65.35,
+        "percent_total": 65.35
+      },
+      {
+        "category": "Não",
+        "n": 44,
+        "percent_valid": 34.65,
+        "percent_total": 34.65
+      }
+    ]
+  },
+  {
+    "question_id": "A6a",
+    "question_text": "A6a. Se sim, quem ministrou a formação",
+    "question_label": "Se sim, quem ministrou a formação",
+    "app_section": "Caracterização da amostra",
+    "objective": "Caracterizar a amostra",
+    "variable_type": "single_choice_or_text",
+    "variable": "a6a_quem_ministrou_formacao",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 83,
+      "missing_n": 44,
+      "n_categories": 16
+    },
+    "rows": [
+      {
+        "category": "IANDA GUINÉ",
+        "n": 41,
+        "percent_valid": 49.4,
+        "percent_total": 32.28
+      },
+      {
+        "category": "Projeto",
+        "n": 13,
+        "percent_valid": 15.66,
+        "percent_total": 10.24
+      },
+      {
+        "category": "Subsaid",
+        "n": 6,
+        "percent_valid": 7.23,
+        "percent_total": 4.72
+      },
+      {
+        "category": "PNUD",
+        "n": 5,
+        "percent_valid": 6.02,
+        "percent_total": 3.94
+      },
+      {
+        "category": "Projetos",
+        "n": 4,
+        "percent_valid": 4.82,
+        "percent_total": 3.15
+      },
+      {
+        "category": "Micat",
+        "n": 2,
+        "percent_valid": 2.41,
+        "percent_total": 1.57
+      },
+      {
+        "category": "Micat, Subsaid",
+        "n": 2,
+        "percent_valid": 2.41,
+        "percent_total": 1.57
+      },
+      {
+        "category": "PNUD, Micap",
+        "n": 2,
+        "percent_valid": 2.41,
+        "percent_total": 1.57
+      },
+      {
+        "category": "FAO,IMPA",
+        "n": 1,
+        "percent_valid": 1.2,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Mikat",
+        "n": 1,
+        "percent_valid": 1.2,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Pessoal de Proteção Vegetal",
+        "n": 1,
+        "percent_valid": 1.2,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Proteção Vegetal",
+        "n": 1,
+        "percent_valid": 1.2,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Subsaid, IANDA GUINÉ",
+        "n": 1,
+        "percent_valid": 1.2,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Subsaid, Micat",
+        "n": 1,
+        "percent_valid": 1.2,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Subsaid,Amae e Micat",
+        "n": 1,
+        "percent_valid": 1.2,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Subsaid,FAO IMPA",
+        "n": 1,
+        "percent_valid": 1.2,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "B8",
+    "question_text": "B8. Em cada canteiro coloca só uma cultura ou mistura várias?",
+    "question_label": "Em cada canteiro coloca só uma cultura ou mistura várias?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b8_organizacao_canteiro",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Várias",
+        "n": 125,
+        "percent_valid": 98.43,
+        "percent_total": 98.43
+      },
+      {
+        "category": "Uma cultura",
+        "n": 2,
+        "percent_valid": 1.57,
+        "percent_total": 1.57
+      }
+    ]
+  },
+  {
+    "question_id": "B9",
+    "question_text": "B9. Costuma fazer rotação de culturas de um ano para outro?",
+    "question_label": "Costuma fazer rotação de culturas de um ano para outro?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b9_rotacao_culturas",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Não",
+        "n": 113,
+        "percent_valid": 88.98,
+        "percent_total": 88.98
+      },
+      {
+        "category": "Sim",
+        "n": 14,
+        "percent_valid": 11.02,
+        "percent_total": 11.02
+      }
+    ]
+  },
+  {
+    "question_id": "B10",
+    "question_text": "B10. Conheces pesticidas?",
+    "question_label": "Conheces pesticidas?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b10_conhece_pesticidas",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 1
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 127,
+        "percent_valid": 100.0,
+        "percent_total": 100.0
+      }
+    ]
+  },
+  {
+    "question_id": "B11",
+    "question_text": "B11. Utiliza ou chegou de utilizar pesticidas na sua produção?",
+    "question_label": "Utiliza ou chegou de utilizar pesticidas na sua produção?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b11_usa_pesticidas",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 124,
+        "percent_valid": 97.64,
+        "percent_total": 97.64
+      },
+      {
+        "category": "Não",
+        "n": 3,
+        "percent_valid": 2.36,
+        "percent_total": 2.36
+      }
+    ]
+  },
+  {
+    "question_id": "B13",
+    "question_text": "B13. Onde compra os pesticidas?",
+    "question_label": "Onde compra os pesticidas?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b13_local_compra_pesticidas",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "No mercado",
+        "n": 120,
+        "percent_valid": 94.49,
+        "percent_total": 94.49
+      },
+      {
+        "category": "Outro",
+        "n": 7,
+        "percent_valid": 5.51,
+        "percent_total": 5.51
+      }
+    ]
+  },
+  {
+    "question_id": "B14",
+    "question_text": "B14. Quando usa os pesticidas?",
+    "question_label": "Quando usa os pesticidas?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b14_momento_uso_pesticidas",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 3
+    },
+    "rows": [
+      {
+        "category": "Quando começa a ver algumas pragas",
+        "n": 73,
+        "percent_valid": 57.94,
+        "percent_total": 57.48
+      },
+      {
+        "category": "Antes das pragas começarem a atacar",
+        "n": 52,
+        "percent_valid": 41.27,
+        "percent_total": 40.94
+      },
+      {
+        "category": "Quando a planta tem muitas pragas",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "B15",
+    "question_text": "B15. Durante quanto tempo aplica o pesticida em cada época de produção?",
+    "question_label": "Durante quanto tempo aplica o pesticida em cada época de produção?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b15_duracao_aplicacao",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Enquanto à pragas",
+        "n": 125,
+        "percent_valid": 99.21,
+        "percent_total": 98.43
+      },
+      {
+        "category": "Apenas uma vez",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "B16",
+    "question_text": "B16. Com que frequência aplica o pesticida?",
+    "question_label": "Com que frequência aplica o pesticida?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b16_frequencia_aplicacao",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 3
+    },
+    "rows": [
+      {
+        "category": "Semanalmente",
+        "n": 90,
+        "percent_valid": 71.43,
+        "percent_total": 70.87
+      },
+      {
+        "category": "Quinzenalmente",
+        "n": 25,
+        "percent_valid": 19.84,
+        "percent_total": 19.69
+      },
+      {
+        "category": "Mensalmente",
+        "n": 11,
+        "percent_valid": 8.73,
+        "percent_total": 8.66
+      }
+    ]
+  },
+  {
+    "question_id": "B17",
+    "question_text": "B17. Quais os critérios que utiliza para escolher os pesticidas?",
+    "question_label": "Quais os critérios que utiliza para escolher os pesticidas?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b17_criterios_escolha_pesticidas",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 4
+    },
+    "rows": [
+      {
+        "category": "Recomendação de colegas",
+        "n": 75,
+        "percent_valid": 59.52,
+        "percent_total": 59.06
+      },
+      {
+        "category": "Recomendação de vendedores",
+        "n": 49,
+        "percent_valid": 38.89,
+        "percent_total": 38.58
+      },
+      {
+        "category": "Outro",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Recomendação de técnicos agrícolas (ONGs ou Estado)",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "B18",
+    "question_text": "B18. Usa na hortaliça pesticidas de outras culturas?",
+    "question_label": "Usa na hortaliça pesticidas de outras culturas?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b18_usa_pesticidas_outras_culturas",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Não",
+        "n": 121,
+        "percent_valid": 96.03,
+        "percent_total": 95.28
+      },
+      {
+        "category": "Sim",
+        "n": 5,
+        "percent_valid": 3.97,
+        "percent_total": 3.94
+      }
+    ]
+  },
+  {
+    "question_id": "B19",
+    "question_text": "B19. Quando alguma planta tem infestação da praga, já alguma vez usou produtos naturais para combater?",
+    "question_label": "Quando alguma planta tem infestação da praga, já alguma vez usou produtos naturais para combater?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b19_usa_produtos_naturais",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 115,
+        "percent_valid": 90.55,
+        "percent_total": 90.55
+      },
+      {
+        "category": "Não",
+        "n": 12,
+        "percent_valid": 9.45,
+        "percent_total": 9.45
+      }
+    ]
+  },
+  {
+    "question_id": "B19.2",
+    "question_text": "B19.2. Quem lhe ensinou?",
+    "question_label": "2. Quem lhe ensinou?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b19_2_quem_ensinou_produtos_naturais",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 115,
+      "missing_n": 12,
+      "n_categories": 17
+    },
+    "rows": [
+      {
+        "category": "IANDA GUINÉ",
+        "n": 39,
+        "percent_valid": 33.91,
+        "percent_total": 30.71
+      },
+      {
+        "category": "Colegas",
+        "n": 32,
+        "percent_valid": 27.83,
+        "percent_total": 25.2
+      },
+      {
+        "category": "Projeto",
+        "n": 15,
+        "percent_valid": 13.04,
+        "percent_total": 11.81
+      },
+      {
+        "category": "PNUD",
+        "n": 6,
+        "percent_valid": 5.22,
+        "percent_total": 4.72
+      },
+      {
+        "category": "Subsaid",
+        "n": 6,
+        "percent_valid": 5.22,
+        "percent_total": 4.72
+      },
+      {
+        "category": "Micat",
+        "n": 5,
+        "percent_valid": 4.35,
+        "percent_total": 3.94
+      },
+      {
+        "category": "Projetos",
+        "n": 2,
+        "percent_valid": 1.74,
+        "percent_total": 1.57
+      },
+      {
+        "category": "Através de colegas",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "FAO, IMPA",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Micat, Subsaid, Pnud",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Mikat",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Pessoal de Proteção Vegetal",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Projeto Nicap",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Subsaid, Amae e Micat",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Subsaid, IANDA GUINÉ",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Subsaid, IMPA e Micat",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Subsaid, Pnud,Micat",
+        "n": 1,
+        "percent_valid": 0.87,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "B19.3",
+    "question_text": "B19.3. Em caso afirmativo, acha que é eficaz a controlar essas pragas usando produtos naturais?",
+    "question_label": "3. Em caso afirmativo, acha que é eficaz a controlar essas pragas usando produtos naturais?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b19_3_eficacia_produtos_naturais",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 115,
+      "missing_n": 12,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 94,
+        "percent_valid": 81.74,
+        "percent_total": 74.02
+      },
+      {
+        "category": "Não",
+        "n": 21,
+        "percent_valid": 18.26,
+        "percent_total": 16.54
+      }
+    ]
+  },
+  {
+    "question_id": "B20",
+    "question_text": "B20. Acha possível fazer agricultura sem o uso de pesticidas química?",
+    "question_label": "Acha possível fazer agricultura sem o uso de pesticidas química?",
+    "app_section": "Práticas hortícolas",
+    "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas",
+    "variable_type": "single_choice_or_text",
+    "variable": "b20_agricultura_sem_pesticidas_quimicos",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 72,
+        "percent_valid": 56.69,
+        "percent_total": 56.69
+      },
+      {
+        "category": "Não",
+        "n": 55,
+        "percent_valid": 43.31,
+        "percent_total": 43.31
+      }
+    ]
+  },
+  {
+    "question_id": "C21",
+    "question_text": "C21. Conhece as regras de segurança sobre uso correto de pesticidas?",
+    "question_label": "Conhece as regras de segurança sobre uso correto de pesticidas?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c21_conhece_regras_seguranca",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Não",
+        "n": 116,
+        "percent_valid": 91.34,
+        "percent_total": 91.34
+      },
+      {
+        "category": "Sim",
+        "n": 11,
+        "percent_valid": 8.66,
+        "percent_total": 8.66
+      }
+    ]
+  },
+  {
+    "question_id": "C21a",
+    "question_text": "C21a. Se Sim, quem te contou?",
+    "question_label": "Se Sim, quem te contou?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c21a_fonte_regras_seguranca",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 11,
+      "missing_n": 116,
+      "n_categories": 4
+    },
+    "rows": [
+      {
+        "category": "Colegas",
+        "n": 8,
+        "percent_valid": 72.73,
+        "percent_total": 6.3
+      },
+      {
+        "category": "Experiência",
+        "n": 1,
+        "percent_valid": 9.09,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Experiência própria",
+        "n": 1,
+        "percent_valid": 9.09,
+        "percent_total": 0.79
+      },
+      {
+        "category": "Micat",
+        "n": 1,
+        "percent_valid": 9.09,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "C22",
+    "question_text": "C22. Sabe que alguns pesticidas são proibidos ou têm uso restrito?",
+    "question_label": "Sabe que alguns pesticidas são proibidos ou têm uso restrito?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c22_conhece_pesticidas_proibidos_restritos",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Não",
+        "n": 106,
+        "percent_valid": 83.46,
+        "percent_total": 83.46
+      },
+      {
+        "category": "Sim",
+        "n": 21,
+        "percent_valid": 16.54,
+        "percent_total": 16.54
+      }
+    ]
+  },
+  {
+    "question_id": "C22.1",
+    "question_text": "C22.1. Se Sim, sabe quais são esses pesticidas?",
+    "question_label": "1. Se Sim, sabe quais são esses pesticidas?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c22_1_sabe_quais_pesticidas_proibidos",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 16,
+      "missing_n": 111,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Não",
+        "n": 10,
+        "percent_valid": 62.5,
+        "percent_total": 7.87
+      },
+      {
+        "category": "Sim",
+        "n": 6,
+        "percent_valid": 37.5,
+        "percent_total": 4.72
+      }
+    ]
+  },
+  {
+    "question_id": "C22.2",
+    "question_text": "C22.2. Na sua opinião, por que razão alguns pesticidas são proibidos ou restringidos?",
+    "question_label": "2. Na sua opinião, por que razão alguns pesticidas são proibidos ou restringidos?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c22_2_razao_pesticidas_proibidos_restritos",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 16,
+      "missing_n": 111,
+      "n_categories": 1
+    },
+    "rows": [
+      {
+        "category": "São muito tóxicos",
+        "n": 16,
+        "percent_valid": 100.0,
+        "percent_total": 12.6
+      }
+    ]
+  },
+  {
+    "question_id": "C24",
+    "question_text": "C24. Costuma ler, compreender e seguir as instruções dos rótulos dos pesticidas?",
+    "question_label": "Costuma ler, compreender e seguir as instruções dos rótulos dos pesticidas?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c24_le_rotulos",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Não",
+        "n": 124,
+        "percent_valid": 98.41,
+        "percent_total": 97.64
+      },
+      {
+        "category": "Sim",
+        "n": 2,
+        "percent_valid": 1.59,
+        "percent_total": 1.57
+      }
+    ]
+  },
+  {
+    "question_id": "C24.1",
+    "question_text": "C24.1. Se a resposta for “Não”, perguntar porquê:",
+    "question_label": "1. Se a resposta for “Não”, perguntar porquê:",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c24_1_porque_nao_le_rotulos",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 124,
+      "missing_n": 3,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Outro",
+        "n": 81,
+        "percent_valid": 65.32,
+        "percent_total": 63.78
+      },
+      {
+        "category": "Não entendo porque não está em português",
+        "n": 43,
+        "percent_valid": 34.68,
+        "percent_total": 33.86
+      }
+    ]
+  },
+  {
+    "question_id": "C26",
+    "question_text": "C26. Onde costuma preparar a solução de pesticidas para pulverização?",
+    "question_label": "Onde costuma preparar a solução de pesticidas para pulverização?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c26_local_preparo_solucao",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "No campo",
+        "n": 125,
+        "percent_valid": 99.21,
+        "percent_total": 98.43
+      },
+      {
+        "category": "Em casa",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "C27",
+    "question_text": "C27. Costuma reutilizar os recipientes (garrafa) de pesticidas?",
+    "question_label": "Costuma reutilizar os recipientes (garrafa) de pesticidas?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c27_reutiliza_recipientes",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 1
+    },
+    "rows": [
+      {
+        "category": "Não",
+        "n": 126,
+        "percent_valid": 100.0,
+        "percent_total": 99.21
+      }
+    ]
+  },
+  {
+    "question_id": "C29",
+    "question_text": "C29. O que faz com pesticidas antigos ou fora de prazo?",
+    "question_label": "O que faz com pesticidas antigos ou fora de prazo?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c29_destino_pesticidas_vencidos",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 123,
+      "missing_n": 4,
+      "n_categories": 4
+    },
+    "rows": [
+      {
+        "category": "Continua a utilizá-los",
+        "n": 88,
+        "percent_valid": 71.54,
+        "percent_total": 69.29
+      },
+      {
+        "category": "Compro o necessário",
+        "n": 28,
+        "percent_valid": 22.76,
+        "percent_total": 22.05
+      },
+      {
+        "category": "Descarta no campo",
+        "n": 6,
+        "percent_valid": 4.88,
+        "percent_total": 4.72
+      },
+      {
+        "category": "Devolve ao comerciante",
+        "n": 1,
+        "percent_valid": 0.81,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "C31",
+    "question_text": "C31. Costuma usar os equipamentos de proteção individual?",
+    "question_label": "Costuma usar os equipamentos de proteção individual?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c31_usa_epi",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 126,
+      "missing_n": 1,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Não",
+        "n": 71,
+        "percent_valid": 56.35,
+        "percent_total": 55.91
+      },
+      {
+        "category": "Sim",
+        "n": 55,
+        "percent_valid": 43.65,
+        "percent_total": 43.31
+      }
+    ]
+  },
+  {
+    "question_id": "C31.1",
+    "question_text": "C31.1. Com que frequência utiliza os seguintes equipamentos durante a preparação ou aplicação de pesticidas?",
+    "question_label": "1. Com que frequência utiliza os seguintes equipamentos durante a preparação ou aplicação de pesticidas?",
+    "app_section": "Conhecimento e segurança",
+    "objective": "Averiguar conhecimentos sobre medidas de segurança",
+    "variable_type": "single_choice_or_text",
+    "variable": "c31_1_frequencia_uso_epi",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 55,
+      "missing_n": 72,
+      "n_categories": 3
+    },
+    "rows": [
+      {
+        "category": "Poucas vezes",
+        "n": 27,
+        "percent_valid": 49.09,
+        "percent_total": 21.26
+      },
+      {
+        "category": "Muitas vezes",
+        "n": 21,
+        "percent_valid": 38.18,
+        "percent_total": 16.54
+      },
+      {
+        "category": "Sempre",
+        "n": 7,
+        "percent_valid": 12.73,
+        "percent_total": 5.51
+      }
+    ]
+  },
+  {
+    "question_id": "D32",
+    "question_text": "D32. Na sua opinião, o uso de pesticidas pode causar problemas de saúde?",
+    "question_label": "Na sua opinião, o uso de pesticidas pode causar problemas de saúde?",
+    "app_section": "Saúde e ambiente",
+    "objective": "Compreender impactos percebidos na saúde e no ambiente",
+    "variable_type": "single_choice_or_text",
+    "variable": "d32_percepcao_impacto_saude",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 122,
+        "percent_valid": 96.06,
+        "percent_total": 96.06
+      },
+      {
+        "category": "Não sabe",
+        "n": 5,
+        "percent_valid": 3.94,
+        "percent_total": 3.94
+      }
+    ]
+  },
+  {
+    "question_id": "D32.1",
+    "question_text": "D32.1. Já sentiu algum problema de saúde após a aplicação de pesticidas?",
+    "question_label": "1. Já sentiu algum problema de saúde após a aplicação de pesticidas?",
+    "app_section": "Saúde e ambiente",
+    "objective": "Compreender impactos percebidos na saúde e no ambiente",
+    "variable_type": "single_choice_or_text",
+    "variable": "d32_1_sintomas_apos_aplicacao",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 122,
+      "missing_n": 5,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 102,
+        "percent_valid": 83.61,
+        "percent_total": 80.31
+      },
+      {
+        "category": "Não",
+        "n": 20,
+        "percent_valid": 16.39,
+        "percent_total": 15.75
+      }
+    ]
+  },
+  {
+    "question_id": "D33",
+    "question_text": "D33. Acha que o uso de pesticidas pode causar danos ao ambiente?",
+    "question_label": "Acha que o uso de pesticidas pode causar danos ao ambiente?",
+    "app_section": "Saúde e ambiente",
+    "objective": "Compreender impactos percebidos na saúde e no ambiente",
+    "variable_type": "single_choice_or_text",
+    "variable": "d33_percepcao_impacto_ambiente",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 3
+    },
+    "rows": [
+      {
+        "category": "Não sabe",
+        "n": 92,
+        "percent_valid": 72.44,
+        "percent_total": 72.44
+      },
+      {
+        "category": "Sim",
+        "n": 34,
+        "percent_valid": 26.77,
+        "percent_total": 26.77
+      },
+      {
+        "category": "Não",
+        "n": 1,
+        "percent_valid": 0.79,
+        "percent_total": 0.79
+      }
+    ]
+  },
+  {
+    "question_id": "E34",
+    "question_text": "E34. Considera importante receber mais informação/formação sobre uso seguro e responsável de pesticidas?",
+    "question_label": "Considera importante receber mais informação/formação sobre uso seguro e responsável de pesticidas?",
+    "app_section": "Educação ambiental",
+    "objective": "Propor estratégias de educação ambiental",
+    "variable_type": "single_choice_or_text",
+    "variable": "e34_quer_mais_formacao",
+    "default_chart": "bar",
+    "summary": {
+      "total_n": 127,
+      "valid_n": 127,
+      "missing_n": 0,
+      "n_categories": 2
+    },
+    "rows": [
+      {
+        "category": "Sim",
+        "n": 125,
+        "percent_valid": 98.43,
+        "percent_total": 98.43
+      },
+      {
+        "category": "Não",
+        "n": 2,
+        "percent_valid": 1.57,
+        "percent_total": 1.57
+      }
+    ]
+  }
+]

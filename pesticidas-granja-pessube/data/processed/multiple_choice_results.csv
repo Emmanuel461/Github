@@ -1,0 +1,77 @@
+﻿question_id,question_text,option,selected_n,valid_n,percent_valid,percent_total_respondents
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Baguiche,119,127,93.7,93.7
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Alface,118,127,92.91,92.91
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Repolho,115,127,90.55,90.55
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Quiabo,114,127,89.76,89.76
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Beringela,105,127,82.68,82.68
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Beterraba,102,127,80.31,80.31
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Couve,102,127,80.31,80.31
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Malagueta,96,108,88.89,75.59
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Nabo,92,127,72.44,72.44
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Pimento,77,127,60.63,60.63
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Cebola,65,127,51.18,51.18
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Tomate,60,127,47.24,47.24
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Cenoura,58,127,45.67,45.67
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Outro,45,108,41.67,35.43
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Suculibembem,43,127,33.86,33.86
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Salsa,40,46,86.96,31.5
+B7,B7. Que tipo de culturas hortícolas produz atualmente?,Alho francês,38,127,29.92,29.92
+B12,B12. Quais os principais pesticidas que utiliza?,Inseticidas,125,127,98.43,98.43
+B12,B12. Quais os principais pesticidas que utiliza?,Outros,2,127,1.57,1.57
+B12,B12. Quais os principais pesticidas que utiliza?,Fungicidas,0,127,0.0,0.0
+B12,B12. Quais os principais pesticidas que utiliza?,Herbicidas,0,127,0.0,0.0
+B19.1,B19.1. Se resposta for “Sim” que tipo de produto natural?,Folhas e frutos de Cássia pilados com água,110,115,95.65,86.61
+B19.1,B19.1. Se resposta for “Sim” que tipo de produto natural?,Moringa,92,109,84.4,72.44
+B19.1,B19.1. Se resposta for “Sim” que tipo de produto natural?,Água com sabão e malagueta,91,115,79.13,71.65
+B19.1,B19.1. Se resposta for “Sim” que tipo de produto natural?,Água com sabão e tabaco,63,115,54.78,49.61
+B19.1,B19.1. Se resposta for “Sim” que tipo de produto natural?,Cinza,4,115,3.48,3.15
+B21,B21. Qual é a finalidade do dinheiro que você ganha na venda do seus produtos hortícolas ?,Para alimentação da família,38,39,97.44,29.92
+B21,B21. Qual é a finalidade do dinheiro que você ganha na venda do seus produtos hortícolas ?,Para o pagamento da educação dos filhos,38,39,97.44,29.92
+B21,B21. Qual é a finalidade do dinheiro que você ganha na venda do seus produtos hortícolas ?,Para as cerimónias,17,39,43.59,13.39
+B21,B21. Qual é a finalidade do dinheiro que você ganha na venda do seus produtos hortícolas ?,outro,12,39,30.77,9.45
+B21,B21. Qual é a finalidade do dinheiro que você ganha na venda do seus produtos hortícolas ?,Para o pagamento da renda,1,39,2.56,0.79
+B21,B21. Qual é a finalidade do dinheiro que você ganha na venda do seus produtos hortícolas ?,Para a minha própria formação,0,39,0.0,0.0
+C23,C23. Quem aplica pesticidas na sua horta?,Eu mesmo,96,127,75.59,75.59
+C23,C23. Quem aplica pesticidas na sua horta?,Outro,44,108,40.74,34.65
+C23,C23. Quem aplica pesticidas na sua horta?,Meus colegas,8,127,6.3,6.3
+C23,C23. Quem aplica pesticidas na sua horta?,Algum familiar,5,127,3.94,3.94
+C23,C23. Quem aplica pesticidas na sua horta?,Técnicos de agricultura,5,127,3.94,3.94
+C25,C25. Onde costuma armazenar os pesticidas?,"No campo, ao ar livre",125,126,99.21,98.43
+C25,C25. Onde costuma armazenar os pesticidas?,Outro,1,126,0.79,0.79
+C25,C25. Onde costuma armazenar os pesticidas?,Armazém de produtos químicos,0,126,0.0,0.0
+C25,C25. Onde costuma armazenar os pesticidas?,Área de habitação,0,126,0.0,0.0
+C28,C28. O que faz com os pesticidas que sobram após a mistura ou aplicação?,Mistura apenas a quantidade necessária,104,126,82.54,81.89
+C28,C28. O que faz com os pesticidas que sobram após a mistura ou aplicação?,Ofereço colegas,19,120,15.83,14.96
+C28,C28. O que faz com os pesticidas que sobram após a mistura ou aplicação?,Descarta no campo,10,126,7.94,7.87
+C28,C28. O que faz com os pesticidas que sobram após a mistura ou aplicação?,Aplica noutras culturas,8,126,6.35,6.3
+C28,C28. O que faz com os pesticidas que sobram após a mistura ou aplicação?,Guardo para utilizar depois,8,107,7.48,6.3
+C28,C28. O que faz com os pesticidas que sobram após a mistura ou aplicação?,Descarta no esgoto ou na valeta,0,126,0.0,0.0
+C30,C30. O que faz com as embalagens vazias de pesticidas?,Deita no campo,112,126,88.89,88.19
+C30,C30. O que faz com as embalagens vazias de pesticidas?,Guardo para próxima compra,30,107,28.04,23.62
+C30,C30. O que faz com as embalagens vazias de pesticidas?,Queima,9,126,7.14,7.09
+C30,C30. O que faz com as embalagens vazias de pesticidas?,Enterra,5,126,3.97,3.94
+C30,C30. O que faz com as embalagens vazias de pesticidas?,Coloca no lixo comum,4,126,3.17,3.15
+C30,C30. O que faz com as embalagens vazias de pesticidas?,Deita em canais de irrigação,0,126,0.0,0.0
+D32.2,"D32.2. Se Sim, quais sintomas sentiu?",Dificuldade respiratória,72,102,70.59,56.69
+D32.2,"D32.2. Se Sim, quais sintomas sentiu?",Tonturas,40,102,39.22,31.5
+D32.2,"D32.2. Se Sim, quais sintomas sentiu?",Irritação na pele ou nos olhos,28,102,27.45,22.05
+D32.2,"D32.2. Se Sim, quais sintomas sentiu?",Dores de cabeça,21,102,20.59,16.54
+D32.2,"D32.2. Se Sim, quais sintomas sentiu?",Náuseas/vómitos,20,102,19.61,15.75
+D32.2,"D32.2. Se Sim, quais sintomas sentiu?",Outro,2,102,1.96,1.57
+D33.1,"D33.1. Na sua opinião, que impactos os pesticidas podem causar no ambiente?",Contaminação do solo,33,34,97.06,25.98
+D33.1,"D33.1. Na sua opinião, que impactos os pesticidas podem causar no ambiente?",Contaminação da água,31,34,91.18,24.41
+D33.1,"D33.1. Na sua opinião, que impactos os pesticidas podem causar no ambiente?",Morte dos insetos úteis,8,34,23.53,6.3
+D33.1,"D33.1. Na sua opinião, que impactos os pesticidas podem causar no ambiente?",Outro,1,34,2.94,0.79
+D33.1,"D33.1. Na sua opinião, que impactos os pesticidas podem causar no ambiente?",Prejuízos para animais,0,34,0.0,0.0
+D33.2,D33.2. Caso afirmativo porque usava pesticida,Falta de conhecimento,30,34,88.24,23.62
+D33.2,D33.2. Caso afirmativo porque usava pesticida,Falta de alternativas,17,34,50.0,13.39
+D33.2,D33.2. Caso afirmativo porque usava pesticida,Falta de apoios tecnicos e financeiro,1,34,2.94,0.79
+E34.1,"E34.1. Se Sim, que temas gostaria que fossem abordadas numa formação?",Proteção da saúde,109,122,89.34,85.83
+E34.1,"E34.1. Se Sim, que temas gostaria que fossem abordadas numa formação?",Uso correto dos pesticidas,49,122,40.16,38.58
+E34.1,"E34.1. Se Sim, que temas gostaria que fossem abordadas numa formação?",Alternativas aos pesticidas químicos,34,122,27.87,26.77
+E34.1,"E34.1. Se Sim, que temas gostaria que fossem abordadas numa formação?",Proteção do ambiente,12,122,9.84,9.45
+E35,E35. Que formas de sensibilização considera mais adequadas?,Formação prática no campo,116,124,93.55,91.34
+E35,E35. Que formas de sensibilização considera mais adequadas?,Seminário em sala,69,124,55.65,54.33
+E35,E35. Que formas de sensibilização considera mais adequadas?,Campanhas de rádio ou TV,3,124,2.42,2.36
+E35,E35. Que formas de sensibilização considera mais adequadas?,Apoio regular de técnicos agrícolas,1,124,0.81,0.79
+E35,E35. Que formas de sensibilização considera mais adequadas?,Integração no ensino na escola primária e liceus,0,124,0.0,0.0

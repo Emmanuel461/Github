@@ -1,0 +1,246 @@
+{
+  "title": "Análise do questionário sobre pesticidas",
+  "subtitle": "Horticultoras de Granja de Pessubé",
+  "language": "pt",
+  "data_files": {
+    "questions": "../data/app/questions.json",
+    "dashboard_cards": "../data/app/dashboard_cards.json",
+    "descriptive_results": "../data/app/descriptive_results.json",
+    "multiple_choice_results": "../data/app/multiple_choice_results.json",
+    "crosstab_results": "../data/app/crosstab_results.json"
+  },
+  "total_respondents": 127,
+  "sections": [
+    {
+      "id": "caracterizacao",
+      "title": "Caracterização da amostra",
+      "objective": "Caracterizar as horticultoras entrevistadas.",
+      "questions": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A6a"
+      ]
+    },
+    {
+      "id": "praticas",
+      "title": "Práticas hortícolas e uso de pesticidas",
+      "objective": "Identificar práticas hortícolas associadas ao uso de pesticidas, os principais pesticidas utilizados e os critérios de seleção.",
+      "questions": [
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16",
+        "B17",
+        "B18",
+        "B19",
+        "B19.1",
+        "B19.2",
+        "B19.3",
+        "B20",
+        "B21"
+      ]
+    },
+    {
+      "id": "seguranca",
+      "title": "Conhecimento e segurança no uso de pesticidas",
+      "objective": "Averiguar conhecimentos sobre medidas de segurança no manuseio, aplicação, armazenamento e descarte de pesticidas.",
+      "questions": [
+        "C21",
+        "C21a",
+        "C22",
+        "C22.1",
+        "C22.2",
+        "C23",
+        "C24",
+        "C24.1",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C31.1"
+      ]
+    },
+    {
+      "id": "saude",
+      "title": "Perceção dos impactos na saúde humana",
+      "objective": "Compreender os impactos percebidos pelas horticultoras na saúde humana.",
+      "questions": [
+        "D32",
+        "D32.1",
+        "D32.2"
+      ]
+    },
+    {
+      "id": "ambiente",
+      "title": "Perceção dos impactos ambientais",
+      "objective": "Compreender os impactos percebidos pelas horticultoras no ambiente.",
+      "questions": [
+        "D33",
+        "D33.1",
+        "D33.2"
+      ]
+    },
+    {
+      "id": "educacao",
+      "title": "Estratégias de educação ambiental",
+      "objective": "Apoiar a proposta de estratégias de sensibilização e proteção integrada.",
+      "questions": [
+        "E34",
+        "E34.1",
+        "E35"
+      ]
+    },
+    {
+      "id": "cruzamentos",
+      "title": "Cruzamentos e associação estatística",
+      "objective": "Analisar a associação entre escolaridade, idade, experiência, formação e as perceções das horticultoras.",
+      "questions": []
+    }
+  ],
+  "dashboard_cards": [
+    {
+      "id": "n_respostas",
+      "title": "Respostas",
+      "type": "count_rows"
+    },
+    {
+      "id": "formacao_sim",
+      "title": "Recebeu formação",
+      "type": "share_equals",
+      "variable": "a6_formacao_pesticidas",
+      "value": "Sim"
+    },
+    {
+      "id": "usa_pesticidas_sim",
+      "title": "Usa ou já usou pesticidas",
+      "type": "share_equals",
+      "variable": "b11_usa_pesticidas",
+      "value": "Sim"
+    },
+    {
+      "id": "usa_epi_sim",
+      "title": "Usa EPI",
+      "type": "share_equals",
+      "variable": "c31_usa_epi",
+      "value": "Sim"
+    },
+    {
+      "id": "percebe_saude_sim",
+      "title": "Percebe impactos na saúde",
+      "type": "share_equals",
+      "variable": "d32_percepcao_impacto_saude",
+      "value": "Sim"
+    },
+    {
+      "id": "percebe_ambiente_sim",
+      "title": "Percebe impactos ambientais",
+      "type": "share_equals",
+      "variable": "d33_percepcao_impacto_ambiente",
+      "value": "Sim"
+    }
+  ],
+  "crosstabs": [
+    {
+      "id": "formacao_conhecimento_seguranca",
+      "title": "Formação × conhecimento de segurança",
+      "x": "a6_formacao_pesticidas",
+      "y": "c21_conhece_regras_seguranca",
+      "test": "chi_square"
+    },
+    {
+      "id": "formacao_uso_epi",
+      "title": "Formação × uso de EPI",
+      "x": "a6_formacao_pesticidas",
+      "y": "c31_usa_epi",
+      "test": "chi_square"
+    },
+    {
+      "id": "formacao_percepcao_saude",
+      "title": "Formação × perceção dos impactos na saúde",
+      "x": "a6_formacao_pesticidas",
+      "y": "d32_percepcao_impacto_saude",
+      "test": "chi_square"
+    },
+    {
+      "id": "formacao_percepcao_ambiente",
+      "title": "Formação × perceção dos impactos ambientais",
+      "x": "a6_formacao_pesticidas",
+      "y": "d33_percepcao_impacto_ambiente",
+      "test": "chi_square"
+    },
+    {
+      "id": "escolaridade_conhecimento_seguranca",
+      "title": "Escolaridade × conhecimento de segurança",
+      "x": "a3_escolaridade",
+      "y": "c21_conhece_regras_seguranca",
+      "test": "chi_square"
+    },
+    {
+      "id": "escolaridade_uso_epi",
+      "title": "Escolaridade × uso de EPI",
+      "x": "a3_escolaridade",
+      "y": "c31_usa_epi",
+      "test": "chi_square"
+    },
+    {
+      "id": "escolaridade_percepcao_saude",
+      "title": "Escolaridade × perceção dos impactos na saúde",
+      "x": "a3_escolaridade",
+      "y": "d32_percepcao_impacto_saude",
+      "test": "chi_square"
+    },
+    {
+      "id": "escolaridade_percepcao_ambiente",
+      "title": "Escolaridade × perceção dos impactos ambientais",
+      "x": "a3_escolaridade",
+      "y": "d33_percepcao_impacto_ambiente",
+      "test": "chi_square"
+    },
+    {
+      "id": "idade_percepcao_saude",
+      "title": "Idade × perceção dos impactos na saúde",
+      "x": "derived_idade_grupo",
+      "y": "d32_percepcao_impacto_saude",
+      "test": "chi_square"
+    },
+    {
+      "id": "idade_percepcao_ambiente",
+      "title": "Idade × perceção dos impactos ambientais",
+      "x": "derived_idade_grupo",
+      "y": "d33_percepcao_impacto_ambiente",
+      "test": "chi_square"
+    },
+    {
+      "id": "experiencia_percepcao_saude",
+      "title": "Experiência em horticultura × perceção dos impactos na saúde",
+      "x": "derived_experiencia_grupo",
+      "y": "d32_percepcao_impacto_saude",
+      "test": "chi_square"
+    },
+    {
+      "id": "experiencia_percepcao_ambiente",
+      "title": "Experiência em horticultura × perceção dos impactos ambientais",
+      "x": "derived_experiencia_grupo",
+      "y": "d33_percepcao_impacto_ambiente",
+      "test": "chi_square"
+    }
+  ],
+  "notes": [
+    "As frequências, percentagens, tabelas cruzadas, Qui-quadrado e Cramer's V são calculados previamente pelos scripts Python.",
+    "O termo recomendado para a interpretação estatística é associação, não influência causal.",
+    "Quando houver frequências esperadas inferiores a 5, os scripts geram aviso metodológico para a app apresentar."
+  ]
+}
