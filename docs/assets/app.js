@@ -15,6 +15,18 @@ const state = {
 };
 
 const els = {};
+const CHART_COLORS = [
+  "#2f6f4e",
+  "#4f8fc0",
+  "#d69c2f",
+  "#9b5f98",
+  "#4f9f8a",
+  "#c75d4d",
+  "#6f7a3a",
+  "#7b6cb5",
+  "#ba7b2f",
+  "#3f7f7a",
+];
 
 document.addEventListener("DOMContentLoaded", initApp);
 
@@ -248,19 +260,28 @@ function renderFrequencyChart(result) {
   const labels = rows.map((r) => isMultiple ? r.option : r.category);
   const values = rows.map((r) => isMultiple ? r.selected_n : r.n);
   const isHorizontal = isMultiple || labels.length > 6;
+  const colors = labels.map((_, index) => chartColor(index));
 
   const ctx = document.getElementById("main-chart");
+  const chartBox = ctx.closest(".chart-box");
+  if (chartBox) {
+    chartBox.style.minHeight = `${isHorizontal ? Math.max(360, labels.length * 38 + 80) : 360}px`;
+  }
+
   destroyChart("mainChart");
   state.mainChart = new Chart(ctx, {
     type: "bar",
     data: {
       labels,
       datasets: [{
-        label: isMultiple ? "Selecionaram (n)" : "Frequência (n)",
+        label: isMultiple ? "Selecionaram (n)" : "Frequ\u00eancia (n)",
         data: values,
+        backgroundColor: colors,
+        borderColor: colors,
+        borderWidth: 1,
       }],
     },
-    options: chartOptions({ horizontal: isHorizontal }),
+    options: chartOptions({ horizontal: isHorizontal, categoryLabels: labels }),
   });
 }
 
@@ -312,28 +333,74 @@ function renderCrosstabChart(result) {
   state.crosstabChart = new Chart(ctx, {
     type: "bar",
     data: { labels: rowCategories, datasets },
-    options: chartOptions({ horizontal: rowCategories.length > 6, percentAxis: true }),
+    options: chartOptions({ horizontal: rowCategories.length > 6, percentAxis: true, showLegend: true }),
   });
 }
 
-function chartOptions({ horizontal = false, percentAxis = false } = {}) {
+function chartOptions({ horizontal = false, percentAxis = false, categoryLabels = [], showLegend = false } = {}) {
+  const categoryTick = function(value) {
+    const label = categoryLabels[value] ?? this.getLabelForValue(value);
+    return wrapChartLabel(label, horizontal ? 34 : 18);
+  };
+  const valueTick = (value) => percentAxis ? `${value}%` : value;
+
   return {
     indexAxis: horizontal ? "y" : "x",
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
-      legend: { display: true },
+      legend: { display: showLegend },
       tooltip: {
         callbacks: {
+          title: (items) => {
+            const item = items[0];
+            return categoryLabels[item.dataIndex] || item.label;
+          },
           label: (context) => `${context.dataset.label}: ${percentAxis ? formatPercent(context.raw) : formatNumber(context.raw)}`,
         },
       },
     },
-    scales: {
-      x: { beginAtZero: true, ticks: { callback: (value) => percentAxis && !horizontal ? `${value}%` : value } },
-      y: { beginAtZero: true, ticks: { callback: (value) => percentAxis && horizontal ? `${value}%` : value } },
+    scales: horizontal ? {
+      x: { beginAtZero: true, ticks: { callback: valueTick } },
+      y: { ticks: { autoSkip: false, callback: categoryTick } },
+    } : {
+      x: { ticks: { autoSkip: false, maxRotation: 0, minRotation: 0, callback: categoryTick } },
+      y: { beginAtZero: true, ticks: { callback: valueTick } },
     },
   };
+}
+
+function chartColor(index) {
+  return CHART_COLORS[index % CHART_COLORS.length];
+}
+
+function wrapChartLabel(value, maxLength = 18, maxLines = 3) {
+  const text = String(value ?? "");
+  if (text.length <= maxLength) return text;
+
+  const words = text.split(/\s+/).filter(Boolean);
+  const lines = [];
+  let current = "";
+
+  for (const word of words) {
+    const next = current ? `${current} ${word}` : word;
+    if (next.length <= maxLength) {
+      current = next;
+      continue;
+    }
+
+    if (current) lines.push(current);
+    current = word.length > maxLength ? `${word.slice(0, maxLength - 3)}...` : word;
+
+    if (lines.length === maxLines) break;
+  }
+
+  if (current && lines.length < maxLines) lines.push(current);
+  if (lines.length === maxLines && words.join(" ").length > lines.join(" ").length) {
+    lines[maxLines - 1] = `${lines[maxLines - 1].slice(0, Math.max(0, maxLength - 3))}...`;
+  }
+
+  return lines.length > 1 ? lines : lines[0] || text;
 }
 
 function destroyChart(key) {
